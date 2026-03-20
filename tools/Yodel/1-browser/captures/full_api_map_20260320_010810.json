@@ -1,0 +1,1895 @@
+{
+  "me": {
+    "error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation"
+  },
+  "entitlements": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "watchlists": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "unread_count": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "notifications": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "chat_channels": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "news_categories": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "news_top20": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "breaking_news": {
+    "status": 200,
+    "data": [
+      {
+        "id": "019d09a3-aea2-7997-bc03-f58aac666558",
+        "type": 0,
+        "time": "2026-03-20T05:06:55.000Z",
+        "important": 1,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "TURNOVER ON SSE AND SZSE EXCEEDED 1.5 TRILLION YUAN, UP 160 BILLION YUAN VS SAME TIME PREVIOUS SESSION"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "none",
+            "symbol": "SSE Composite"
+          },
+          {
+            "impact": "none",
+            "symbol": "SZSE Component"
+          },
+          {
+            "impact": "none",
+            "symbol": "CSI300"
+          }
+        ],
+        "classification": [
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          },
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          }
+        ]
+      },
+      {
+        "id": "019d09a2-82d6-7997-bc03-ed516de2e1d5",
+        "type": 0,
+        "time": "2026-03-20T05:05:38.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "<b>JP MORGAN EXPECTS ECB TO HIKE INTEREST RATES IN APRIL AND JULY 2026 VS PRIOR FORECAST TO HOLD RATES THROUGHOUT THIS YEAR</b>"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "EURUSD"
+          },
+          {
+            "impact": "bearish",
+            "symbol": "DXY"
+          }
+        ],
+        "classification": [
+          {
+            "id": 50004,
+            "pid": 0,
+            "name": "Macro & Rates"
+          }
+        ]
+      },
+      {
+        "id": "019d09a1-75b3-7997-bc03-e2c3202e749a",
+        "type": 0,
+        "time": "2026-03-20T05:04:29.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "\u3010China\u2019s Markets Seen Resilient Despite Middle East Tensions\u3011Capital Economics analyst Thomas Mathews said China\u2019s equity and bond markets could remain resilient even if the Middle East conflict continues. The economy is positioned to limit the impact of higher global energy prices on domestic producers, helping companies gain market share despite slowing global growth. With little pressure to raise rates to curb inflation expectations, Chinese bonds are likely to remain attractive."
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "CSI300"
+          }
+        ],
+        "classification": null
+      },
+      {
+        "id": "019d099c-5012-7997-bc03-dd344ec7d32a",
+        "type": 0,
+        "time": "2026-03-20T04:58:52.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "JP MORGAN EXPECTS BOE TO HIKE INTEREST RATES BY 25 BPS EACH IN APRIL AND JULY 2026 VS PRIOR FORECAST TO HOLD RATES THROUGHOUT THIS YEAR<br/><br/>JP MORGAN: WE ARE PUTTING TWO CUTS IN THE FORECAST, BUT NOT UNTIL  2Q AND 4Q OF 2027<br/><br/>JP MORGAN: WE EXPECT INFLATION WILL FALL BACK NEXT YEAR, BUT NOT UNTIL THE SPRING"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "GBPUSD"
+          },
+          {
+            "impact": "bearish",
+            "symbol": "DXY"
+          }
+        ],
+        "classification": null
+      },
+      {
+        "id": "019d0994-b690-7997-bc03-d715273c4eba",
+        "type": 0,
+        "time": "2026-03-20T04:50:34.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "KPC SAYS FIREFIGHTING TEAMS RESPONDED, SOME UNITS SHUT DOWN TO ENSURE SAFETY<br/><br/>KPC SAYS NO CASUALTIES REPORTED IN INITIAL ESTIMATES"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "none",
+            "symbol": "WTI"
+          },
+          {
+            "impact": "none",
+            "symbol": "Brent"
+          }
+        ],
+        "classification": null
+      },
+      {
+        "id": "019d0991-da7b-7997-bc03-c99784a1ff4d",
+        "type": 0,
+        "time": "2026-03-20T04:47:26.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "KUWAIT\u2019S KPC SAYS MINA AL-AHMADI REFINERY HIT BY DRONE ATTACK OVERNIGHT, FIRE BROKE OUT IN SOME UNITS - STATE NEWS AGENCY"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "WTI"
+          },
+          {
+            "impact": "bullish",
+            "symbol": "Brent"
+          }
+        ],
+        "classification": null
+      },
+      {
+        "id": "019d098b-fabf-7997-bc03-c19a0f39e6e6",
+        "type": 0,
+        "time": "2026-03-20T04:41:01.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "\u3010Daiwa Cautious on Alibaba Profitability but Bullish on AI Monetization\u3011Daiwa analysts said Alibaba\u2019s long-term outlook remains promising despite weaker-than-expected Q3 profitability. They are cautious on overall profitability but constructive on Alibaba Cloud\u2019s medium-term AI monetization, highlighting the new Token Hub unit as a core engine for scalable token-based consumption. Food delivery losses stayed high in the December quarter but are expected to narrow next quarter. Daiwa maintains a buy rating but lowers the target price to HK$184 from HK$191."
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "9988.HK"
+          }
+        ],
+        "classification": [
+          {
+            "id": 80015,
+            "pid": 50002,
+            "name": "Alibaba"
+          },
+          {
+            "id": 50002,
+            "pid": 0,
+            "name": "Star Stocks"
+          }
+        ]
+      },
+      {
+        "id": "019d0989-d8c8-7997-bc03-bbcdb7fa5a66",
+        "type": 0,
+        "time": "2026-03-20T04:38:41.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "\u3010EM Stocks Fluctuate Before Weekend Even as Lower Oil Helps Mood\u3011Emerging-market equities swung Friday after US and Israeli efforts eased Iran war fears, sending oil down from near-four-year highs. MSCI EM index fluctuated following Thursday\u2019s 2.7% drop, while EM currencies rose 0.2%, both set for weekly gains. Barclays\u2019 Mitul Kotecha noted market calm is fragile amid volatile news. Oil eased after Trump ruled out ground troops and Netanyahu pledged no further strikes on Iranian energy facilities, following missile damage to Qatar\u2019s Ras Laffan LNG hub. Reduced Fed easing expectations also weighed on sentiment."
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bearish",
+            "symbol": "WTI"
+          },
+          {
+            "impact": "bullish",
+            "symbol": "CNH"
+          }
+        ],
+        "classification": [
+          {
+            "id": 80030,
+            "pid": 50005,
+            "name": "Emerging Markets"
+          },
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          }
+        ]
+      },
+      {
+        "id": "019d097b-70e1-7997-bc03-b6a29a7e504d",
+        "type": 0,
+        "time": "2026-03-20T04:22:57.000Z",
+        "important": 1,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "\u3010Musk Team\u2019s Solar Equipment Order Seen Shipping in Early May, Source Says\u3011A Musk-led team is expected to ship a previously ordered batch of solar equipment in the first week of May, a source told Cailian Press. The SpaceX team had placed an order with a leading Chinese heterojunction equipment maker, with exports subject to regulatory filing and approval. Orders are split between SpaceX (S-chain) for space applications and Tesla (T-chain) for ground use. Discussions on T-chain orders with several TOPCon equipment makers are still ongoing, the source said."
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 80010,
+            "pid": 50002,
+            "name": "Tesla"
+          },
+          {
+            "id": 80001,
+            "pid": 50001,
+            "name": "Magnificent 7"
+          },
+          {
+            "id": 50002,
+            "pid": 0,
+            "name": "Star Stocks"
+          },
+          {
+            "id": 50001,
+            "pid": 0,
+            "name": "Market Themes"
+          }
+        ]
+      },
+      {
+        "id": "019d0979-aa13-7997-bc03-adc44e44303c",
+        "type": 0,
+        "time": "2026-03-20T04:21:01.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "<b>IRAN SAID TO ALLOW MORE INDIAN VESSELS PASS STRAIT OF HORMUZ: CNN NEWS 18</b>"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bearish",
+            "symbol": "WTI"
+          },
+          {
+            "impact": "bearish",
+            "symbol": "Brent"
+          }
+        ],
+        "classification": null
+      },
+      {
+        "id": "019d0979-2bee-7997-bc03-a2a51abe0f02",
+        "type": 0,
+        "time": "2026-03-20T04:20:29.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "\u3010OpenAI Plans Desktop App Combining Chat, Coding and Web Browsing\u3011OpenAI is creating a desktop app that integrates ChatGPT, Codex, and ChatGPT Atlas, its AI-powered web browser, to boost user engagement amid competition from Anthropic PBC. CEO Fidji Simo will lead the integration and marketing, with President Greg Brockman assisting. Launch timing is unclear. The development, first reported by The Wall Street Journal, comes as major AI firms, including Alphabet Inc., release models tackling tasks from code generation to financial analysis and realistic media creation."
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 80032,
+            "pid": 50002,
+            "name": "Alphabet"
+          },
+          {
+            "id": 80001,
+            "pid": 50001,
+            "name": "Magnificent 7"
+          },
+          {
+            "id": 50002,
+            "pid": 0,
+            "name": "Star Stocks"
+          },
+          {
+            "id": 50001,
+            "pid": 0,
+            "name": "Market Themes"
+          }
+        ]
+      },
+      {
+        "id": "019d0978-c804-7997-bc03-9dd9c71b0114",
+        "type": 0,
+        "time": "2026-03-20T04:20:03.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "JP MORGAN RAISES INFINEON TECHNOLOGIES TO OVERWEIGHT FROM NEUTRAL; RAISES TARGET PRICE TO EUR 48 FROM EUR 40"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "IFX.DE"
+          }
+        ],
+        "classification": [
+          {
+            "id": 50001,
+            "pid": 0,
+            "name": "Market Themes"
+          },
+          {
+            "id": 80006,
+            "pid": 50001,
+            "name": "Chip Wars"
+          }
+        ]
+      },
+      {
+        "id": "019d096d-ea66-7997-bc03-953043a66465",
+        "type": 0,
+        "time": "2026-03-20T04:08:11.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "\u3010Delton Shares Jump 106% in HK Debut After $421 Million Listing\u3011Delton Technology Guangzhou\u2019s shares surged 106% to HK$147.9 in their Hong Kong debut, after raising HK$3.3B ($421M), before easing. Shenzhen-listed shares fell 3.9%. Investor interest was fueled by China\u2019s AI-related stocks, including Alibaba and Baidu, amid soaring demand for computing and storage. Delton, a printed circuit board maker for servers, is on track for the largest first-day gain in Hong Kong for listings raising over $400M since Montage Technology\u2019s 64% jump in February."
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "Hang Seng Index"
+          },
+          {
+            "impact": "bullish",
+            "symbol": "BABA.N"
+          },
+          {
+            "impact": "bullish",
+            "symbol": "BIDU.O"
+          }
+        ],
+        "classification": [
+          {
+            "id": 80015,
+            "pid": 50002,
+            "name": "Alibaba"
+          },
+          {
+            "id": 80007,
+            "pid": 50001,
+            "name": "AI Revolution"
+          },
+          {
+            "id": 50002,
+            "pid": 0,
+            "name": "Star Stocks"
+          },
+          {
+            "id": 50001,
+            "pid": 0,
+            "name": "Market Themes"
+          }
+        ]
+      },
+      {
+        "id": "019d095f-cb55-7997-bc03-8e65ad81a9a7",
+        "type": 0,
+        "time": "2026-03-20T03:52:45.000Z",
+        "important": 1,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINEXT PRICE INDEX LAST UP 3.3% AT 3418.37, HIGHEST INTRADAY LEVEL SINCE DECEMBER 2021"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "SZSE Component"
+          }
+        ],
+        "classification": [
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          },
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          }
+        ]
+      },
+      {
+        "id": "019d095c-b164-7997-bc03-8435cc586c80",
+        "type": 0,
+        "time": "2026-03-20T03:49:22.000Z",
+        "important": 1,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "HONG KONG SOLAR STOCKS RISE: DRINDA +10%, SOLARGIGA & XINYI SOLAR +6%"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "Hang Seng Index"
+          }
+        ],
+        "classification": [
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          },
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          }
+        ]
+      },
+      {
+        "id": "019d0956-00e9-7997-bc03-7d1f0f15628d",
+        "type": 0,
+        "time": "2026-03-20T03:42:04.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINA FINANCE MINISTRY AUCTIONS 10-YEAR BONDS AT 1.8001 PCT YIELD - TRADERS<br/><br/>CHINA FINANCE MINISTRY AUCTIONS 3-YEAR BONDS AT 1.2878 PCT YIELD - TRADERS"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          },
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          }
+        ]
+      },
+      {
+        "id": "019d0950-8d3d-7997-bc03-701284d8913f",
+        "type": 0,
+        "time": "2026-03-20T03:36:07.000Z",
+        "important": 1,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "\u3010Tesla Solar Procurement Plan Confirmed by Company\u3011Tesla is planning large-scale purchases of Chinese solar equipment involving several listed companies, according to market chatter. A solar firm confirmed the plan, indicating the contract size could reach gigawatt scale, the Beijing News reported."
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "Copper"
+          }
+        ],
+        "classification": [
+          {
+            "id": 80010,
+            "pid": 50002,
+            "name": "Tesla"
+          },
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          },
+          {
+            "id": 80001,
+            "pid": 50001,
+            "name": "Magnificent 7"
+          },
+          {
+            "id": 50002,
+            "pid": 0,
+            "name": "Star Stocks"
+          },
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          },
+          {
+            "id": 50001,
+            "pid": 0,
+            "name": "Market Themes"
+          }
+        ]
+      },
+      {
+        "id": "019d094d-54fe-7997-bc03-6bf71b7e2c19",
+        "type": 0,
+        "time": "2026-03-20T03:32:36.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "\u3010CATL Hong Kong Rally Drives Record Premium Over Mainland Shares\u3011Shares of Contemporary Amperex Technology Co. briefly hit a record Hong Kong premium over China's mainland listings after strong earnings and energy supply shocks. HK shares rose ~35% versus 16% for Shenzhen shares, pushing the gap to 46%, exceeding levels last July. Morgan Stanley notes a 10% premium is typical versus peers like Taiwan Semiconductor Manufacturing Co. and BYD Co., implying current highs may be unsustainable."
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "Hang Seng Index"
+          },
+          {
+            "impact": "bearish",
+            "symbol": "CSI300"
+          }
+        ],
+        "classification": null
+      },
+      {
+        "id": "019d093f-1618-7997-bc03-6013bb31a1b0",
+        "type": 0,
+        "time": "2026-03-20T03:17:02.000Z",
+        "important": 1,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINEXT INDEX UP OVER 3%"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "399006.SZ"
+          }
+        ],
+        "classification": [
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          },
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          }
+        ]
+      },
+      {
+        "id": "019d093b-7273-7997-bc03-5e1d56ac1e3c",
+        "type": 0,
+        "time": "2026-03-20T03:13:03.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "GOLDMAN: WE EXPECT THAT THE MPC WILL GRADUALLY LOWER BANK RATE IN 2027 TO A TERMINAL RATE OF 3%<br/><br/>GOLDMAN SACHS EXPECTS BOE TO REMAIN ON HOLD THROUGHOUT 2026 VS PRIOR FORECAST OF QUARTERLY CUTS FROM JULY"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "mixed",
+            "symbol": "GBPUSD"
+          }
+        ],
+        "classification": null
+      },
+      {
+        "id": "019d0933-d919-7997-bc03-549005f87abf",
+        "type": 0,
+        "time": "2026-03-20T03:04:45.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "\u3010Australia Weighs LNG Windfall Tax as World Faces Soaring Prices\u3011Prime Minister Anthony Albanese has asked Treasury to model a windfall tax on Australia\u2019s LNG sector as global prices surge. Energy Minister Chris Bowen confirmed the request but offered no details, citing cabinet confidentiality. The spike follows Middle East supply disruptions, including missile damage to Qatar\u2019s Ras Laffan hub and Strait of Hormuz blockages. Australia, the world\u2019s third-largest LNG exporter, shipped nearly 80 million tons worth A$65B in 2024\u201325, with the sector paying about A$22B in taxes and royalties, per Australian Energy Producers."
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "WTI"
+          },
+          {
+            "impact": "bullish",
+            "symbol": "Brent"
+          }
+        ],
+        "classification": [
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          },
+          {
+            "id": 80022,
+            "pid": 50003,
+            "name": "Energy"
+          }
+        ]
+      },
+      {
+        "id": "019d0920-b8aa-7997-bc03-4a25c95c6e6e",
+        "type": 0,
+        "time": "2026-03-20T02:43:52.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "\u3010Copper and Aluminum Rise as US, Israel Try to Reassure on War\u3011Copper and aluminum rose after Thursday\u2019s steep losses, following US and Israeli moves easing Middle East conflict fears. Netanyahu pledged Israeli forces would avoid energy targets, and Trump ruled out ground troops in Iran. Metals markets have been shaken by potential Gulf supply disruptions, particularly in aluminum, while demand concerns dominate. Rising oil and gas prices threaten global manufacturing, fuel inflation, and could prompt tighter central bank policies. Traders are now watching crude prices, which eased Friday, amid pre-war questions over metals prices versus demand."
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "Copper"
+          },
+          {
+            "impact": "mixed",
+            "symbol": "WTI"
+          }
+        ],
+        "classification": [
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          },
+          {
+            "id": 80021,
+            "pid": 50003,
+            "name": "Industrial Metals"
+          }
+        ]
+      },
+      {
+        "id": "019d091d-ef97-7997-bc03-47c53e7e0d6c",
+        "type": 0,
+        "time": "2026-03-20T02:40:48.000Z",
+        "important": 1,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "\u3010Intel Reportedly Readies a 10% Price Hike for Consumer CPUs\u3011Intel has reportedly informed its major PC clients of a planned 10% price increase on its consumer CPUs. According to industry sources cited by ET News, this price hike will affect Intel's Core Ultra family of processors, which power hundreds of millions of PCs worldwide."
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "mixed",
+            "symbol": "INTC.O"
+          }
+        ],
+        "classification": null
+      },
+      {
+        "id": "019d091a-b3a5-7997-bc03-395b10db2673",
+        "type": 0,
+        "time": "2026-03-20T02:37:17.000Z",
+        "important": 1,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "SOUTHBOUND NET SELLING VIA STOCK CONNECT REACHED HKD2 BLN"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bearish",
+            "symbol": "Hang Seng Index"
+          }
+        ],
+        "classification": [
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          },
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          }
+        ]
+      },
+      {
+        "id": "019d0918-cb5a-7997-bc03-37e34a03a81f",
+        "type": 0,
+        "time": "2026-03-20T02:35:12.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINA JAN-FEB FERTILISER OUTPUT UP 6.7% Y/Y AT 10.88 MLN METRIC TONS -STATS BUREAU"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          },
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          }
+        ]
+      },
+      {
+        "id": "019d0918-6a49-7997-bc03-2f9e7193aa9c",
+        "type": 0,
+        "time": "2026-03-20T02:34:47.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINA JAN-FEB REFINED COPPER OUTPUT UP 9% Y/Y AT 2.47 MLN METRIC TONS - STATS BUREAU"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bearish",
+            "symbol": "Copper"
+          }
+        ],
+        "classification": [
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          },
+          {
+            "id": 80021,
+            "pid": 50003,
+            "name": "Industrial Metals"
+          },
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          },
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          }
+        ]
+      },
+      {
+        "id": "019d0917-6c37-7997-bc03-2619c7b13a43",
+        "type": 0,
+        "time": "2026-03-20T02:33:43.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINA JAN-FEB CRUDE IRON ORE OUTPUT UP 1.3% Y/Y AT 161.64 MLN METRIC TONS - STATS BUREAU"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          },
+          {
+            "id": 80021,
+            "pid": 50003,
+            "name": "Industrial Metals"
+          }
+        ]
+      },
+      {
+        "id": "019d0917-5355-7997-bc03-18a3655edcbd",
+        "type": 0,
+        "time": "2026-03-20T02:33:32.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINA JAN-FEB FUEL OIL OUTPUT DOWN 10% Y/Y AT 6.25 MLN METRIC TONS - STATS BUREAU"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "WTI"
+          },
+          {
+            "impact": "bullish",
+            "symbol": "Brent"
+          }
+        ],
+        "classification": [
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          },
+          {
+            "id": 80022,
+            "pid": 50003,
+            "name": "Energy"
+          }
+        ]
+      },
+      {
+        "id": "019d0915-d426-7997-bc03-1645f237ebec",
+        "type": 0,
+        "time": "2026-03-20T02:31:58.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINA JAN-FEB COALBED METHANE OUTPUT UP 14.6% Y/Y AT 3.17 BLN CUBIC METERS - STATS BUREAU"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          },
+          {
+            "id": 80022,
+            "pid": 50003,
+            "name": "Energy"
+          }
+        ]
+      },
+      {
+        "id": "019d0914-3c54-7997-bc03-0a9de387684a",
+        "type": 0,
+        "time": "2026-03-20T02:30:14.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "<b>CHINA JAN-FEB LPG OUTPUT DOWN 2.1% Y/Y AT 8.872 MLN METRIC TONS - STATS BUREAU</b>"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          },
+          {
+            "id": 80022,
+            "pid": 50003,
+            "name": "Energy"
+          }
+        ]
+      },
+      {
+        "id": "019d0914-2353-7997-bc03-06280afd3564",
+        "type": 0,
+        "time": "2026-03-20T02:30:07.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINA JAN-FEB KEROSENE OUTPUT UP 9.6% Y/Y AT 9.966 MLN METRIC TONS - STATS BUREAU"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          },
+          {
+            "id": 80022,
+            "pid": 50003,
+            "name": "Energy"
+          }
+        ]
+      },
+      {
+        "id": "019d0914-0d4c-7997-bc02-fa5796f71111",
+        "type": 0,
+        "time": "2026-03-20T02:30:02.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINA JAN-FEB GASOLINE OUTPUT UP 1.3% Y/Y AT 26.189 MLN METRIC TONS - STATS BUREAU"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          },
+          {
+            "id": 80022,
+            "pid": 50003,
+            "name": "Energy"
+          }
+        ]
+      },
+      {
+        "id": "019d0912-efb7-7997-bc02-f5797512ce77",
+        "type": 0,
+        "time": "2026-03-20T02:28:46.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINA JAN-FEB DIESEL OUTPUT UP 1.6% % Y/Y AT 31.47 MLN METRIC TONS - STATS BUREAU"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          },
+          {
+            "id": 80022,
+            "pid": 50003,
+            "name": "Energy"
+          }
+        ]
+      },
+      {
+        "id": "019d0911-5a4c-7997-bc02-ed0504cdcb76",
+        "type": 0,
+        "time": "2026-03-20T02:27:03.000Z",
+        "important": 1,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "OPENAI IS SET TO MERGE CHATGPT, ITS CODEX CODING TOOL, AND A BROWSER INTO ONE DESKTOP SUPERAPP TO STREAMLINE USER EXPERIENCE-CNBC",
+          "vip_level": 0
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          },
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          }
+        ]
+      },
+      {
+        "id": "019d0911-1c54-7997-bc02-e73afa5b1cf9",
+        "type": 0,
+        "time": "2026-03-20T02:26:45.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "<b>TURNOVER ON SSE AND SZSE EXCEEDED 1 TRILLION YUAN, UP 46 BILLION YUAN VS SAME TIME PREVIOUS SESSION</b>"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "none",
+            "symbol": "SSE Composite"
+          },
+          {
+            "impact": "none",
+            "symbol": "SZSE Component"
+          },
+          {
+            "impact": "none",
+            "symbol": "CSI300"
+          }
+        ],
+        "classification": [
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          },
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          }
+        ]
+      },
+      {
+        "id": "019d0910-dae7-7997-bc02-dca994bc37dc",
+        "type": 0,
+        "time": "2026-03-20T02:26:28.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINA JAN-FEB ALUMINA OUTPUT UP 0.2% Y/Y AT 15.18 MLN METRIC TONS - STATS BUREAU"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          },
+          {
+            "id": 80021,
+            "pid": 50003,
+            "name": "Industrial Metals"
+          }
+        ]
+      },
+      {
+        "id": "019d0910-bae9-7997-bc02-d7b88f788515",
+        "type": 0,
+        "time": "2026-03-20T02:26:24.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "<b>CHINA JAN-FEB CRUDE OIL OUTPUT +1.9 PCT Y/Y AT 35.73 MLN METRIC TONNES - STATS BUREAU</b>"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bearish",
+            "symbol": "WTI"
+          },
+          {
+            "impact": "bearish",
+            "symbol": "Brent"
+          }
+        ],
+        "classification": [
+          {
+            "id": 80022,
+            "pid": 50003,
+            "name": "Energy"
+          },
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          }
+        ]
+      },
+      {
+        "id": "019d0910-aa7d-7997-bc02-c973f83d811a",
+        "type": 0,
+        "time": "2026-03-20T02:26:20.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "<b>CHINA JAN-FEB NATURAL GAS PRODUCTION +2.9% PCT Y/Y AT 44.6 CUBIC METRES -STATS BUREAU</b>"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          },
+          {
+            "id": 80022,
+            "pid": 50003,
+            "name": "Energy"
+          }
+        ]
+      },
+      {
+        "id": "019d0910-9b8e-7997-bc02-c538c0a21e40",
+        "type": 0,
+        "time": "2026-03-20T02:26:16.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINA JAN-FEB POWER OUTPUT +4.1 PCT Y/Y 1.57 TRLN KWH - STATS BUREAU"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "Copper"
+          }
+        ],
+        "classification": [
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          },
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          }
+        ]
+      },
+      {
+        "id": "019d0910-8337-7997-bc02-bc6d4064b776",
+        "type": 0,
+        "time": "2026-03-20T02:26:10.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINA JAN-FEB COAL OUTPUT -0.3 PCT Y/Y AT 7.63 TRLN TONNES-STATS BUREAU"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          },
+          {
+            "id": 80022,
+            "pid": 50003,
+            "name": "Energy"
+          }
+        ]
+      },
+      {
+        "id": "019d0910-50a8-7997-bc02-b3268aa9b321",
+        "type": 0,
+        "time": "2026-03-20T02:25:57.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "<b>HONG KONG TELECOM STOCKS SURGE: DELTON +51%, YOFC +13%</b>"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          },
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          }
+        ]
+      },
+      {
+        "id": "019d090e-e000-7997-bc02-a9387119d8ab",
+        "type": 0,
+        "time": "2026-03-20T02:24:22.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINA JAN-FEB ZINC OUTPUT 5.4% Y/Y AT 1.198 MLN METRIC TONS - STATS BUREAU"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          },
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          }
+        ]
+      },
+      {
+        "id": "019d090e-d2b6-7997-bc02-a287097734ac",
+        "type": 0,
+        "time": "2026-03-20T02:24:18.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CHINA JAN-FEB LEAD OUTPUT -1.0% Y/Y AT 1.15 MLN METRIC TONS - STATS BUREAU"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          },
+          {
+            "id": 80021,
+            "pid": 50003,
+            "name": "Industrial Metals"
+          },
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          },
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          }
+        ]
+      },
+      {
+        "id": "019d0909-bf0e-7997-bc02-9939d27c5ecc",
+        "type": 0,
+        "time": "2026-03-20T02:18:46.000Z",
+        "important": 1,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "\u3010CHINESE SOLAR PRODUCTION EQUIPMENT SUPPLIER JUMPED AFTER THE REPORT ABOUT TESLA'S ATTEMPT\u3011SUZHOU MAXWELL TECH UP OVER 4%, SHENZHEN SC NEW ENERGY TECH UP 3% AND LAPLACE RENEWABLE ENERGY TECH UP OVER 8%"
+        },
+        "remark": [
+          {
+            "content": "",
+            "id": 37932301,
+            "pics": [
+              "https://img.mktnews.net/flash/ae433c61-6217-4d8b-8b14-ddc5243a3a5f.jpg"
+            ],
+            "title": "",
+            "type": "flash-pics",
+            "vip_level": 0
+          },
+          {
+            "content": "",
+            "id": 94813607,
+            "link": "https://mktnews.com/flashDetail.html?id=019d08f9-4ef4-7997-bc02-6247062780b2",
+            "title": "1",
+            "type": "link",
+            "vip_level": 0
+          },
+          {
+            "content": "",
+            "id": 69044709,
+            "pics": [
+              "https://img.mktnews.net/flash/338ef088-ddbc-40d1-97f3-123d3ecb7d5f.png"
+            ],
+            "title": "",
+            "type": "flash-pics",
+            "vip_level": 0
+          }
+        ],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          },
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          }
+        ]
+      },
+      {
+        "id": "019d0909-6cd4-7997-bc02-95025f236400",
+        "type": 0,
+        "time": "2026-03-20T02:18:25.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "\u3010Pop Mart, Laopu Gold See Bright 2025 Amid Slower China Consumer Spending\u3011Pop Mart International and Laopu Gold are set for triple-digit growth, standing out amid China\u2019s weak consumer spending. Pop Mart shifts to new toy lines like Twinkle Twinkle and Skullpanda, while Laopu benefits from strong gold-linked jewelry demand, per Bloomberg Intelligence. This contrasts with broader retail struggles: Haidilao and Anta likely saw weaker earnings, Meituan faces fierce food delivery competition, and Xiaomi\u2019s smartphone margins are squeezed by high memory costs."
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "9992.HK"
+          },
+          {
+            "impact": "bearish",
+            "symbol": "6862.HK"
+          },
+          {
+            "impact": "bearish",
+            "symbol": "2020.HK"
+          }
+        ],
+        "classification": [
+          {
+            "id": 80017,
+            "pid": 50002,
+            "name": "Meituan"
+          },
+          {
+            "id": 80019,
+            "pid": 50002,
+            "name": "Xiaomi"
+          },
+          {
+            "id": 50002,
+            "pid": 0,
+            "name": "Star Stocks"
+          }
+        ]
+      },
+      {
+        "id": "019d0908-19e9-7997-bc02-8bdfedda22f6",
+        "type": 0,
+        "time": "2026-03-20T02:16:58.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "LAOPU GOLD SHARES FALL 5.5% IN HONG KONG"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [],
+        "classification": [
+          {
+            "id": 80020,
+            "pid": 50003,
+            "name": "Precious Metals"
+          },
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          },
+          {
+            "id": 50003,
+            "pid": 0,
+            "name": "Commodities"
+          },
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          }
+        ]
+      },
+      {
+        "id": "019d0900-fc61-7997-bc02-82dbd7722500",
+        "type": 0,
+        "time": "2026-03-20T02:09:12.000Z",
+        "important": 0,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "\u3010China Issues Guidelines to Strengthen Protections for Gig Workers\u3011China issued trial guidelines targeting platform companies and their labor partners to regulate labor rules and algorithm use. The measures focus on key areas including order allocation, pay and commissions, working hours and rest, delivery time estimates, routing, and performance evaluation and penalties to better protect gig workers."
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bearish",
+            "symbol": "Hang Seng Index"
+          },
+          {
+            "impact": "bearish",
+            "symbol": "CSI300"
+          },
+          {
+            "impact": "mixed",
+            "symbol": "CNH"
+          }
+        ],
+        "classification": [
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          },
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          }
+        ]
+      },
+      {
+        "id": "019d0900-d432-7997-bc02-7e72bca266d6",
+        "type": 0,
+        "time": "2026-03-20T02:09:02.000Z",
+        "important": 1,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "SOUTHBOUND NET SELLING VIA STOCK CONNECT REACHED HKD1 BLN"
+        },
+        "remark": [],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bearish",
+            "symbol": "Hang Seng Index"
+          }
+        ],
+        "classification": [
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          },
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          }
+        ]
+      },
+      {
+        "id": "019d08fc-13cd-7997-bc02-73309e50bff7",
+        "type": 0,
+        "time": "2026-03-20T02:03:50.000Z",
+        "important": 1,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "CATL RISES OVER 5.5% IN HONG KONG, UP 2% IN A-SHARE MARKET"
+        },
+        "remark": [
+          {
+            "content": "",
+            "id": 84188395,
+            "link": "https://mktnews.com/flashDetail.html?id=019d08f9-9546-7997-bc02-6d37c4815265",
+            "title": "1",
+            "type": "link",
+            "vip_level": 0
+          }
+        ],
+        "hot": false,
+        "hot_start": null,
+        "hot_end": null,
+        "classify": [],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "300750.SZ"
+          }
+        ],
+        "classification": [
+          {
+            "id": 80003,
+            "pid": 50001,
+            "name": "China EV Leaders"
+          },
+          {
+            "id": 50005,
+            "pid": 0,
+            "name": "Market Regions"
+          },
+          {
+            "id": 80027,
+            "pid": 50005,
+            "name": "Greater China"
+          },
+          {
+            "id": 50001,
+            "pid": 0,
+            "name": "Market Themes"
+          }
+        ]
+      },
+      {
+        "id": "019d08f9-9546-7997-bc02-6d37c4815265",
+        "type": 0,
+        "time": "2026-03-20T02:01:07.000Z",
+        "important": 1,
+        "data": {
+          "pic": "",
+          "title": "",
+          "content": "TESLA IS LOOKING TO BUY SOLAR PRODUCTION EQUIPMENT WORTH $2.9 BLN FROM CHINESE SUPPLIERS, SOURCES SAY"
+        },
+        "remark": [],
+        "hot": true,
+        "hot_start": "2026-03-20T02:04:16.027Z",
+        "hot_end": "2026-03-20T14:04:16.027Z",
+        "classify": [
+          {
+            "id": 1001,
+            "name": "Chinese Policy & Markets",
+            "pid": 1000,
+            "parent": "Policy"
+          }
+        ],
+        "impact": [
+          {
+            "impact": "bullish",
+            "symbol": "TSLA.O"
+          }
+        ],
+        "classification": [
+          {
+            "id": 80010,
+            "pid": 50002,
+            "name": "Tesla"
+          },
+          {
+            "id": 80001,
+            "pid": 50001,
+            "name": "Magnificent 7"
+          },
+          {
+            "id": 50002,
+            "pid": 0,
+            "name": "Star Stocks"
+          },
+          {
+            "id": 50001,
+            "pid": 0,
+            "name": "Market Themes"
+          }
+        ]
+      }
+    ],
+    "url": "https://app.godelterminal.com/api/fetchBreaking"
+  },
+  "resolve:NVDA": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "bars_1D:NVDA": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "options:NVDA": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "news:NVDA": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "transcripts:NVDA": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "filings:NVDA": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "analysts:NVDA": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "resolve:AAPL": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "bars_1D:AAPL": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "options:AAPL": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "news:AAPL": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "transcripts:AAPL": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "filings:AAPL": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "analysts:AAPL": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "resolve:TSLA": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "bars_1D:TSLA": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "options:TSLA": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "news:TSLA": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "transcripts:TSLA": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "filings:TSLA": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "analysts:TSLA": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "resolve:SPY": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "bars_1D:SPY": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "options:SPY": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "news:SPY": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "transcripts:SPY": {
+    "error": "Page.evaluate: TypeError: Failed to fetch (api.godelterminal.com)\n    at https://app.godelterminal.com/_next/static/chunks/8986-1270ef7145c16540.js:14:4857\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "filings:SPY": {
+    "error": "Page.evaluate: Execution context was destroyed, most likely because of a navigation"
+  },
+  "analysts:SPY": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "resolve:PLTR": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "bars_1D:PLTR": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "options:PLTR": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "news:PLTR": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "transcripts:PLTR": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "filings:PLTR": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "analysts:PLTR": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "search:nvidia": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "search:apple": {
+    "error": "Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:290:30), <anonymous>:8:29)\n    at Object.evaluate (<anonymous>:297:18)\n    at Object.<anonymous> (<anonymous>:1:44)"
+  },
+  "feature_flags": {
+    "status": 400,
+    "data": "Failed to decode request: invalid JSON. Please check your request format and try again.",
+    "url": "https://wojak.godelterminal.com/flags/?v=2&ip=0&compression=base64"
+  }
+}

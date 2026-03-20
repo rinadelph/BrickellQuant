@@ -1,0 +1,270 @@
+
+══════════════════════════════════════════════════════════════════════
+  🔭 GODEL TERMINAL — Interactive API Explorer
+  Target: https://app.godelterminal.com/?page=register
+  Mode: User-controlled (handles Cloudflare)
+══════════════════════════════════════════════════════════════════════
+
+  ▶ Opening registration page…
+
+──────────────────────────────────────────────────────────────────────
+  ⏸  ACTION REQUIRED:
+  1. Complete the Cloudflare challenge (if any)
+  2. Register a new account
+  3. Log in to the application
+  4. Press ENTER when ready to start capturing API calls
+     (or type 'q' + ENTER to quit)
+──────────────────────────────────────────────────────────────────────
+
+  🚀 API CAPTURE ENABLED! Starting exploration…
+
+  [00:12:32.532] ➤ POST   https://app.godelterminal.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/ea2d291c0fdc/0.824496984681
+  [00:12:32.537] ➤ GET    https://api.godelterminal.com/api/chat/channels
+  [00:12:32.538] ➤ POST   https://api.godelterminal.com/api/news/sub_categories
+  [00:12:32.539] ➤ POST   https://api.godelterminal.com/api/news/items
+  [00:12:32.539] ➤ POST   https://api.godelterminal.com/api/v1/optionsv2
+  [00:12:32.539] ➤ GET    https://app.godelterminal.com/api/fetchBreaking
+  [00:12:32.540] ➤ GET    https://api.godelterminal.com/api/v1/watchlists
+  [00:12:32.546] ➤ POST   https://wojak.godelterminal.com/flags/?v=2&ip=0&_=1773979893089&ver=1.350.0&compression=base64
+  [00:12:32.557] ➤ GET    https://api.godelterminal.com/api/chat/channels/2eadcf5d-0443-4327-b5f7-3380de180b5a/messages?size=5
+  [00:12:32.565] ➤ POST   https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+  [00:12:32.585] ➤ POST   https://api.godelterminal.com/api/tv-advanced/resolve-symbol
+  [00:12:32.605] ➤ POST   https://www.google.com/ccm/collect?frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fapp.godelterminal.com%2F
+  [00:12:32.611] ➤ GET    https://d.adroll.com/segment/VL5DCUV3CVEAPKTPJROSP4/WMYXOYN65JCLTBGHKJG235?adroll_fpc=81f6039a37974d
+  [00:12:32.626] ➤ POST   https://api.godelterminal.com/api/tv-advanced/bars
+  [00:12:32.628] ✅ 200 ← https://d.adroll.com/segment/VL5DCUV3CVEAPKTPJROSP4/WMYXOYN65JCLTBGHKJG235?adroll_fpc=81f6039a37974d
+  [00:12:32.631] ✅ 200 ← https://www.google.com/ccm/collect?frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fapp.godelterminal.com%2F
+  [00:12:32.643] ➤ POST   https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+  [00:12:32.644] ➤ POST   https://analytics.google.com/g/collect?v=2&tid=G-16DVLR8D8Y&gtm=45Pe63i0v9208605962z89218240503za20g
+  [00:12:32.645] ➤ POST   https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fapp.godelterminal.com%2F&scrs
+  [00:12:32.645] ➤ POST   https://analytics.google.com/g/collect?v=2&tid=G-16DVLR8D8Y&gtm=45Pe63i0v9208605962z89218240503za20g
+  [00:12:32.648] ✅ 200 ← https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fapp.godelterminal.com%2F&scrs
+  [00:12:32.653] ➤ POST   https://api.godelterminal.com/api/tv-advanced/bars
+  [00:12:32.656] ➤ GET    https://pippio.com/api/sync?pid=5324&it=1&iv=1aee533af58f8a2917dab983d853fff5de3645969c9f3f4394fe2fb
+  [00:12:32.672] ✅ 307 ← https://pippio.com/api/sync?pid=5324&it=1&iv=1aee533af58f8a2917dab983d853fff5de3645969c9f3f4394fe2fb
+  [00:12:32.674] ➤ POST   https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+  [00:12:32.674] ➤ POST   https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+  [00:12:32.680] ➤ POST   https://app.godelterminal.com/cdn-cgi/rum?
+  [00:12:32.683] ➤ POST   https://analytics.google.com/g/collect?v=2&tid=G-16DVLR8D8Y&gtm=45Pe63i0v9208605962za20gzb9218240503
+  [00:12:32.685] ➤ POST   https://api.godelterminal.com/api/v1/auth/signup
+  [00:12:32.686] ➤ POST   https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+  [00:12:32.687] ➤ POST   https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+  [00:12:32.691] ➤ POST   https://app.godelterminal.com/api/loginv2
+  [00:12:32.694] ➤ POST   https://analytics.google.com/g/collect?v=2&tid=G-16DVLR8D8Y&gtm=45Pe63i0v9208605962za20gzb9218240503
+  [00:12:32.696] ➤ POST   https://api.godelterminal.com/api/v1/auth/signup
+  [00:12:32.699] ➤ POST   https://api.godelterminal.com/api/v1/auth/signup
+  [00:12:32.702] ➤ POST   https://api.godelterminal.com/api/v1/auth/signup
+  [00:12:32.704] ➤ POST   https://app.godelterminal.com/api/loginv2
+  [00:12:32.706] ➤ POST   https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+  [00:12:32.706] ➤ POST   https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+  [00:12:32.710] ➤ GET    https://app.godelterminal.com/api/fetchBreaking
+  [00:12:32.714] ➤ POST   https://api.godelterminal.com/api/v1/auth/signup
+  [00:12:32.721] ➤ POST   https://api.godelterminal.com/api/v1/auth/signup
+  [00:12:32.724] ➤ POST   https://api.godelterminal.com/api/v1/command-action
+  [00:12:32.776] ➤ POST   https://api.godelterminal.com/api/tv-advanced/resolve-symbol
+  [00:12:32.783] ➤ POST   https://api.godelterminal.com/api/tv-advanced/bars
+  [00:12:32.786] ➤ POST   https://api.godelterminal.com/api/tv-advanced/bars
+  [00:12:32.788] ➤ POST   https://api.godelterminal.com/api/v1/command-action
+  [00:12:32.793] ➤ POST   https://app.godelterminal.com/cdn-cgi/challenge-platform/h/g/flow/ov1/974506020:1773978023:nmLsnoXwW
+  [00:12:32.798] ➤ POST   https://app.godelterminal.com/cdn-cgi/rum?
+  [00:12:32.800] ➤ POST   https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+  [00:12:32.808] ➤ GET    https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/9df1e0971cd6c6f1/1773979934100/
+  [00:12:32.812] ➤ POST   https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+  [00:12:32.820] ➤ POST   https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+  [00:12:32.823] ➤ POST   https://app.godelterminal.com/cdn-cgi/challenge-platform/h/g/flow/ov1/974506020:1773978023:nmLsnoXwW
+  [00:12:32.830] ➤ POST   https://app.godelterminal.com/cdn-cgi/challenge-platform/h/g/flow/ov1/974506020:1773978023:nmLsnoXwW
+  [00:12:32.831] ➤ POST   https://app.godelterminal.com/cdn-cgi/rum?
+  [00:12:32.839] ➤ POST   https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+  [00:12:32.851] ➤ GET    https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/9df1e0cb3d74c6f1/1773979942147/
+  [00:12:32.855] ➤ POST   https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+  [00:12:32.861] ➤ POST   https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+  [00:12:32.863] ➤ POST   https://app.godelterminal.com/cdn-cgi/challenge-platform/h/g/flow/ov1/974506020:1773978023:nmLsnoXwW
+  [00:12:32.868] ➤ POST   https://app.godelterminal.com/cdn-cgi/challenge-platform/h/g/flow/ov1/974506020:1773978023:nmLsnoXwW
+  [00:12:32.869] ➤ POST   https://app.godelterminal.com/cdn-cgi/rum?
+  [00:12:32.877] ✅ 200 ← https://app.godelterminal.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/ea2d291c0fdc/0.824496984681
+Traceback (most recent call last):
+  File "/home/rincon/BrickellQuant/tools/Yodel/1-browser/interactive_launch.py", line 376, in <module>
+    asyncio.run(main())
+  File "/home/rincon/.local/share/uv/python/cpython-3.11.13-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/rincon/.local/share/uv/python/cpython-3.11.13-linux-x86_64-gnu/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rincon/.local/share/uv/python/cpython-3.11.13-linux-x86_64-gnu/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/rincon/BrickellQuant/tools/Yodel/1-browser/interactive_launch.py", line 340, in main
+    await take_screenshot(page, "01_logged_in")
+  File "/home/rincon/BrickellQuant/tools/Yodel/1-browser/interactive_launch.py", line 214, in take_screenshot
+    await page.screenshot(path=str(path), full_page=True)
+  File "/home/rincon/BrickellQuant/.venv/lib/python3.11/site-packages/playwright/async_api/_generated.py", line 9792, in screenshot
+    await self._impl_obj.screenshot(
+  File "/home/rincon/BrickellQuant/.venv/lib/python3.11/site-packages/playwright/_impl/_page.py", line 814, in screenshot
+    encoded_binary = await self._channel.send(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rincon/BrickellQuant/.venv/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rincon/BrickellQuant/.venv/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.screenshot: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed

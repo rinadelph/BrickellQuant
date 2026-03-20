@@ -1,0 +1,159 @@
+
+══════════════════════════════════════════════════════════════════════
+  🔭 GODEL TERMINAL — API Surface Explorer
+  Target: https://app.godelterminal.com/?page=register
+══════════════════════════════════════════════════════════════════════
+
+  ▶ Navigating to register page…
+  [00:06:33.808] ➤ POST   https://app.godelterminal.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/ea2d291c0fdc/0.824496984681
+  [00:06:34.454] ✅ 200 ← https://app.godelterminal.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/ea2d291c0fdc/0.824496984681
+  [00:06:34.594] ➤ GET    https://api.godelterminal.com/api/chat/channels
+  [00:06:34.706] ➤ POST   https://api.godelterminal.com/api/news/sub_categories
+  [00:06:34.709] ➤ POST   https://api.godelterminal.com/api/news/items
+  [00:06:34.710] ➤ POST   https://api.godelterminal.com/api/v1/optionsv2
+  [00:06:34.711] ➤ GET    https://app.godelterminal.com/api/fetchBreaking
+  [00:06:34.711] ➤ GET    https://api.godelterminal.com/api/v1/watchlists
+  [00:06:34.822] ❌ 403 ← https://app.godelterminal.com/api/fetchBreaking
+            body: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/htm
+  [00:06:34.848] ➤ POST   https://wojak.godelterminal.com/flags/?v=2&ip=0&_=1773979594844&ver=1.350.0&compression=base64
+  [00:06:35.113] ✅ 200 ← https://wojak.godelterminal.com/flags/?v=2&ip=0&_=1773979594844&ver=1.350.0&compression=base64
+            body: {"errorsWhileComputingFlags": false, "flags": {"onboarding-reminder": {"key": "onboarding-reminder", "enabled": false, "
+  [00:06:36.750] ➤ GET    https://api.godelterminal.com/api/chat/channels/2eadcf5d-0443-4327-b5f7-3380de180b5a/messages?size=5
+  [00:06:36.751] ✅ 200 ← https://api.godelterminal.com/api/chat/channels
+            body: [{"id": "0979f912-105d-43f2-ad14-ee593f188530", "title": "quant", "type": "user_write", "createdAt": "2024-12-24T11:44:2
+  [00:06:36.794] ✅ 200 ← https://api.godelterminal.com/api/news/sub_categories
+            body: [{"code": "Amharic", "name": "Amharic", "docCount": 336, "parentCategory": "language", "languageCode": "not_specified1",
+  [00:06:36.893] ✅ 200 ← https://api.godelterminal.com/api/v1/watchlists
+            body: [{"id": "c96d5122-6d4f-4780-9779-925019051565", "name": "Main", "items": [{"id": "EQ:PLTR", "seriesId": 4394324, "series
+  [00:06:37.148] ➤ POST   https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+  [00:06:37.260] ➤ POST   https://www.google.com/ccm/collect?frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fapp.godelterminal.com%2F
+  [00:06:37.501] ✅ 200 ← https://api.godelterminal.com/api/v1/optionsv2
+            body: {"expirations": [{"date": "2026-03-20", "options": [{"strike": 155.0, "put": {"name": "NVDA Option Put 155000 Expiring 2
+  [00:06:37.515] ✅ 200 ← https://api.godelterminal.com/api/news/items
+            body: {"content": [{"id": "moodys-202603191009ZACKS___COMMENT_2886736.xml", "providerName": "Zack's Commentary", "publicationT
+  [00:06:37.597] ✅ 200 ← https://api.godelterminal.com/api/chat/channels/2eadcf5d-0443-4327-b5f7-3380de180b5a/messages?size=5
+            body: {"content": [{"id": 38192007119540, "createdAt": "2026-03-20T00:17:48.260162", "deletedAt": null, "content": "777", "cha
+  [00:06:37.688] ✅ 200 ← https://www.google.com/ccm/collect?frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fapp.godelterminal.com%2F
+  [00:06:37.907] ➤ GET    https://d.adroll.com/segment/VL5DCUV3CVEAPKTPJROSP4/WMYXOYN65JCLTBGHKJG235?adroll_fpc=c3bd8200db8319
+  [00:06:38.902] ✅ 200 ← https://d.adroll.com/segment/VL5DCUV3CVEAPKTPJROSP4/WMYXOYN65JCLTBGHKJG235?adroll_fpc=c3bd8200db8319
+  [00:06:39.242] ➤ POST   https://api.godelterminal.com/api/tv-advanced/resolve-symbol
+  [00:06:39.398] ➤ POST   https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+  [00:06:39.585] ➤ POST   https://analytics.google.com/g/collect?v=2&tid=G-16DVLR8D8Y&gtm=45be63i0v9208605962z89218240503za20g
+  [00:06:39.586] ➤ POST   https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fapp.godelterminal.com%2F&scrs
+  [00:06:39.607] ✅ 200 ← https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+            body: {"id": "0850548464e14399afe76a7515362eb6"}
+  [00:06:39.666] ➤ POST   https://analytics.google.com/g/collect?v=2&tid=G-16DVLR8D8Y&gtm=45be63i0v9208605962z89218240503za20g
+  [00:06:40.069] ✅ 200 ← https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fapp.godelterminal.com%2F&scrs
+  [00:06:40.824] ➤ GET    https://pippio.com/api/sync?pid=5324&it=1&iv=b0823d9c08fb5275d19a3282bad170aa40f326b43fb94943eb6a615
+  [00:06:40.902] ✅ 200 ← https://api.godelterminal.com/api/tv-advanced/resolve-symbol
+            body: {"error": null, "data": {"ticker": "PLTR", "name": "Palantir Technologies Inc. Class A", "description": null, "type": "s
+  [00:06:41.030] ✅ 200 ← https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+            body: {"id": "a2e390d098134534acd412bb7da9fc39"}
+  [00:06:41.037] ➤ POST   https://api.godelterminal.com/api/tv-advanced/bars
+  [00:06:41.302] ✅ 204 ← https://analytics.google.com/g/collect?v=2&tid=G-16DVLR8D8Y&gtm=45be63i0v9208605962z89218240503za20g
+  [00:06:41.303] ✅ 204 ← https://analytics.google.com/g/collect?v=2&tid=G-16DVLR8D8Y&gtm=45be63i0v9208605962z89218240503za20g
+  [00:06:41.578] ✅ 307 ← https://pippio.com/api/sync?pid=5324&it=1&iv=b0823d9c08fb5275d19a3282bad170aa40f326b43fb94943eb6a615
+  [00:06:43.132] ➤ POST   https://app.godelterminal.com/cdn-cgi/rum?
+  [00:06:43.264] ➤ POST   https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+  [00:06:43.267] ➤ POST   https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+  [00:06:43.282] ✅ 204 ← https://app.godelterminal.com/cdn-cgi/rum?
+  [00:06:43.479] ✅ 200 ← https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+            body: {"id": "e89aed878bc340e2b2359634e864eae6"}
+  [00:06:43.480] ✅ 200 ← https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+            body: {"id": "ab62ff5382b948a6aa803ff8009b6622"}
+  [00:06:44.011] ✅ 200 ← https://api.godelterminal.com/api/tv-advanced/bars
+            body: {"data": {"data": [{"open": 36.3, "high": 37.68, "low": 36.145, "close": 37.49, "volume": 34988906.0, "time": 1727827200
+  [00:06:44.011] ➤ POST   https://api.godelterminal.com/api/tv-advanced/bars
+  [00:06:44.665] ➤ POST   https://analytics.google.com/g/collect?v=2&tid=G-16DVLR8D8Y&gtm=45be63i0v9208605962za20gzb9218240503
+  [00:06:44.773] ✅ 204 ← https://analytics.google.com/g/collect?v=2&tid=G-16DVLR8D8Y&gtm=45be63i0v9208605962za20gzb9218240503
+  [00:06:45.817] ✅ 200 ← https://api.godelterminal.com/api/tv-advanced/bars
+            body: {"data": {"data": [{"open": 32.55, "high": 33.125, "low": 31.85, "close": 31.92, "volume": 43522223.0, "time": 172428480
+  [00:06:48.871] ➤ POST   https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+  [00:06:48.871] ➤ POST   https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+  📷 Screenshot → /home/rincon/BrickellQuant/tools/Yodel/1-browser/screenshots/01_register.png
+
+  📸 DOM snapshot: register_page
+     links found: 4
+     forms found: 1
+       form action=https://app.godelterminal.com/?page=register method=get
+         input: type=email name=username placeholder=
+         input: type=password name=password placeholder=
+  [00:06:49.072] ✅ 200 ← https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+            body: {"id": "e43278f218cc4fbaa6435cfa4d825f70"}
+  [00:06:49.072] ✅ 200 ← https://o4506144438943744.ingest.us.sentry.io/api/4507827925352448/envelope/?sentry_version=7&sentry
+            body: {"id": "fe423f6e19dd4e6ca047e305fbaa56a2"}
+     buttons found: 49
+       btn: '' type=submit id=
+       btn: 'HELP' type=submit id=
+       btn: 'Register' type=submit id=
+       btn: 'Login' type=submit id=
+       btn: '' type=submit id=
+       btn: '' type=submit id=
+       btn: '' type=submit id=
+       btn: '+' type=submit id=
+       btn: 'Register' type=submit id=
+       btn: 'Log in' type=submit id=
+     route tokens in HTML: 0
+     window globals: ['1', 'name', 'customElements', 'navigation', 'locationbar', 'menubar', 'personalbar', 'scrollbars', 'statusbar', 'toolbar', 'status', 'event', 'clientInformation', 'styleMedia', 'onsearch']
+
+  ▶ Looking for login link…
+     found: 'Log in' → 
+
+  ▶ Navigating to login page…
+  [00:06:50.088] ➤ POST   https://app.godelterminal.com/cdn-cgi/challenge-platform/h/g/flow/ov1/974506020:1773978023:nmLsnoXwW
+  [00:06:50.393] ➤ POST   https://app.godelterminal.com/cdn-cgi/rum?
+  [00:06:50.589] ✅ 200 ← https://app.godelterminal.com/cdn-cgi/challenge-platform/h/g/flow/ov1/974506020:1773978023:nmLsnoXwW
+            body: sb+HqZOWlbaczoiyo6iwpcC2psaxzbrKtdG138LUobnApeLK4O3c1sa7vt/I1fS17OPYrK2y8r297/LwAv3X1ePT2t7kAN7a+eHp+/LzAuYP0tbm+ecVGerf
+  [00:06:50.591] ✅ 204 ← https://app.godelterminal.com/cdn-cgi/rum?
+  [00:06:51.590] ➤ POST   https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+  [00:06:53.557] ✅ 200 ← https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+            body: ZYxfZE5dblx/YnVVd3NjUGhmal2ccl2UXluUX5enZ397hamaiH9sr5Byj6l0o4+wg7J8b7N8mHqOsaCYl8Spx5yKupWvnIy5q6akj5Kvwo/Lw7LH0pjZnKK9
+  [00:06:54.716] ➤ GET    https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/9df1d8b70b639120/1773979611652/
+  [00:06:55.190] ➤ POST   https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+  [00:06:55.198] ❌ 401 ← https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/9df1d8b70b639120/1773979611652/
+            body: J
+  [00:06:55.726] ✅ 200 ← https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+            body: ZYxfZE5dblx/YnVVd3NjUGhlhIWXmHaJm5uCnJqfoGmol5eNqWqveoGjfIh/f3CJq7CFqHerk5/CmY+lgYa8trfCfr+kzsLBpZy9kcCh1amiupyazL24m567
+  [00:06:57.247] ➤ POST   https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+  [00:06:57.446] ➤ POST   https://app.godelterminal.com/cdn-cgi/challenge-platform/h/g/flow/ov1/974506020:1773978023:nmLsnoXwW
+  [00:06:57.448] ✅ 200 ← https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+  [00:06:57.958] ✅ 200 ← https://app.godelterminal.com/cdn-cgi/challenge-platform/h/g/flow/ov1/974506020:1773978023:nmLsnoXwW
+            body: sb+HqZOWlbaczoiyo6iwpcC2udexppSXuOG32py1pObIxrLkyN+p4s6ozrHo39Ssx8Hu98vS0Mj59uzj2M7B0dzSwAzl/vjWA9kN/f7lxwMQERr5E+3aCvUV
+  [00:07:00.676] ➤ POST   https://app.godelterminal.com/cdn-cgi/challenge-platform/h/g/flow/ov1/974506020:1773978023:nmLsnoXwW
+  [00:07:00.782] ➤ POST   https://app.godelterminal.com/cdn-cgi/rum?
+  [00:07:00.992] ✅ 200 ← https://app.godelterminal.com/cdn-cgi/challenge-platform/h/g/flow/ov1/974506020:1773978023:nmLsnoXwW
+            body: sb+HqZOWlbaczoiyo6iwpcC2psaxzbrKtdG138LUobnApeLK4O3c1sa7vt/I1fS17OPYrK2y8r297/LwAv3X1ePT2t7kAN7a+eHp+/LzAuYP0tbm+ecVGerf
+  [00:07:00.993] ✅ 204 ← https://app.godelterminal.com/cdn-cgi/rum?
+  [00:07:03.081] ➤ POST   https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+  [00:07:06.181] ✅ 200 ← https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+            body: m8KVmoSTpJK1mKuLramZhp6coJPSqJPKlJHKlc3dnbWxu9/QvrWi5caoxd+q2cXmueiypemyzrDE59bOzfrf/dLA8Mvl0sLv4dzaxcjl+MUC+ej9Cc4Q0tjz
+  [00:07:06.745] ➤ GET    https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/9df1d8f77c7f9120/1773979623141/
+  [00:07:07.212] ❌ 401 ← https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/9df1d8f77c7f9120/1773979623141/
+            body: J
+  [00:07:07.721] ➤ POST   https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+  [00:07:08.093] ✅ 200 ← https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/flow/ov1/803079175:1773978023:s2Qw6
+            body: m8KVmoSTpJK1mKuLramZhp6burvNzqy/0dG40tDV1p/ezc3D36DlsLfZsr61taa/4ea73q3hydX4z8Xbt7zy7O34tPXaBfj329Lzx/bXDN/Y8NLQA/Pu0dTx
+Traceback (most recent call last):
+  File "/home/rincon/BrickellQuant/tools/Yodel/1-browser/launch.py", line 339, in <module>
+    main()
+  File "/home/rincon/BrickellQuant/tools/Yodel/1-browser/launch.py", line 278, in main
+    page.goto("https://app.godelterminal.com/?page=login", wait_until="networkidle", timeout=20_000)
+  File "/home/rincon/BrickellQuant/.venv/lib/python3.11/site-packages/playwright/sync_api/_generated.py", line 9054, in goto
+    self._sync(
+  File "/home/rincon/BrickellQuant/.venv/lib/python3.11/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/home/rincon/BrickellQuant/.venv/lib/python3.11/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rincon/BrickellQuant/.venv/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 153, in goto
+    await self._channel.send(
+  File "/home/rincon/BrickellQuant/.venv/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rincon/BrickellQuant/.venv/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "https://app.godelterminal.com/?page=login", waiting until "networkidle"
+

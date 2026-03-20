@@ -1,0 +1,1 @@
+.inline-input{background-color:transparent;border:none;border-bottom:1px solid white;width:80px;padding-bottom:0!important}.inline-input:focus{outline:none!important}.tabs-container{-ms-overflow-style:none;scrollbar-width:none}.tabs-container::-webkit-scrollbar{display:none}.tab-button{margin-left:0;color:white}.tab-button:hover{color:#ccc}

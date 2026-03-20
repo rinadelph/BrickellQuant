@@ -1,0 +1,958 @@
+[
+  {
+    "method": "GET",
+    "url": "https://api.godelterminal.com/api/users/me",
+    "status": 403,
+    "body": null,
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:44.812285"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.godelterminal.com/api/v1/entitlements",
+    "status": 403,
+    "body": null,
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:46.313346"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.godelterminal.com/api/v1/watchlists",
+    "status": 403,
+    "body": null,
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:47.751203"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.godelterminal.com/api/notifications/unread-count",
+    "status": 403,
+    "body": null,
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:48.760980"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.godelterminal.com/api/notifications?size=10",
+    "status": 403,
+    "body": null,
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:49.526991"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.godelterminal.com/api/chat/channels",
+    "status": 403,
+    "body": null,
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:50.310086"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/sub_categories",
+    "status": 403,
+    "body": {},
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:51.568437"
+  },
+  {
+    "method": "GET",
+    "url": "https://app.godelterminal.com/api/fetchBreaking",
+    "status": 403,
+    "body": null,
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:52.806184"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "size": 20,
+      "page": 0
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:53.745400"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/resolve-symbol",
+    "status": 403,
+    "body": {
+      "ticker": "NVDA"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:54.474412"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "NVDA",
+      "timeframe": "1D",
+      "bars": 100
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:55.033538"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "NVDA",
+      "timeframe": "1H",
+      "bars": 200
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:55.714521"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/v1/optionsv2",
+    "status": 403,
+    "body": {
+      "ticker": "NVDA"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:56.289245"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "size": 10,
+      "page": 0,
+      "ticker": "NVDA"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:57.074965"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "NVDA",
+      "category": "transcript",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:57.597567"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "NVDA",
+      "category": "filing",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:57.980876"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "NVDA",
+      "category": "analyst",
+      "size": 20
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:58.346424"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "NVDA",
+      "category": "earnings",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:14:59.294812"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/resolve-symbol",
+    "status": 403,
+    "body": {
+      "ticker": "AAPL"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:00.227356"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "AAPL",
+      "timeframe": "1D",
+      "bars": 100
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:01.146434"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "AAPL",
+      "timeframe": "1H",
+      "bars": 200
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:02.364959"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/v1/optionsv2",
+    "status": 403,
+    "body": {
+      "ticker": "AAPL"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:03.956184"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "size": 10,
+      "page": 0,
+      "ticker": "AAPL"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:04.647466"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "AAPL",
+      "category": "transcript",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:05.436831"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "AAPL",
+      "category": "filing",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:06.358771"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "AAPL",
+      "category": "analyst",
+      "size": 20
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:07.279593"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "AAPL",
+      "category": "earnings",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:08.024105"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/resolve-symbol",
+    "status": 403,
+    "body": {
+      "ticker": "TSLA"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:08.814241"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "TSLA",
+      "timeframe": "1D",
+      "bars": 100
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:09.759515"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "TSLA",
+      "timeframe": "1H",
+      "bars": 200
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:10.655777"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/v1/optionsv2",
+    "status": 403,
+    "body": {
+      "ticker": "TSLA"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:11.403744"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "size": 10,
+      "page": 0,
+      "ticker": "TSLA"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:12.201082"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "TSLA",
+      "category": "transcript",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:13.131522"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "TSLA",
+      "category": "filing",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:14.037385"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "TSLA",
+      "category": "analyst",
+      "size": 20
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:14.961471"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "TSLA",
+      "category": "earnings",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:15.879770"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/resolve-symbol",
+    "status": 403,
+    "body": {
+      "ticker": "SPY"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:16.799534"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "SPY",
+      "timeframe": "1D",
+      "bars": 100
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:17.720899"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "SPY",
+      "timeframe": "1H",
+      "bars": 200
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:18.650519"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/v1/optionsv2",
+    "status": 403,
+    "body": {
+      "ticker": "SPY"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:19.565187"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "size": 10,
+      "page": 0,
+      "ticker": "SPY"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:19.941682"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "SPY",
+      "category": "transcript",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:20.581473"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "SPY",
+      "category": "filing",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:24.447293"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "SPY",
+      "category": "analyst",
+      "size": 20
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:25.140799"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "SPY",
+      "category": "earnings",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:25.549699"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/resolve-symbol",
+    "status": 403,
+    "body": {
+      "ticker": "PLTR"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:26.256622"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "PLTR",
+      "timeframe": "1D",
+      "bars": 100
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:27.022126"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "PLTR",
+      "timeframe": "1H",
+      "bars": 200
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:27.861190"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/v1/optionsv2",
+    "status": 403,
+    "body": {
+      "ticker": "PLTR"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:28.497725"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "size": 10,
+      "page": 0,
+      "ticker": "PLTR"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:29.088069"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "PLTR",
+      "category": "transcript",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:30.012240"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "PLTR",
+      "category": "filing",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:30.935113"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "PLTR",
+      "category": "analyst",
+      "size": 20
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:32.775278"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "PLTR",
+      "category": "earnings",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:33.390583"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/resolve-symbol",
+    "status": 403,
+    "body": {
+      "ticker": "MSFT"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:34.312916"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "MSFT",
+      "timeframe": "1D",
+      "bars": 100
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:34.927227"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "MSFT",
+      "timeframe": "1H",
+      "bars": 200
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:35.538843"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/v1/optionsv2",
+    "status": 403,
+    "body": {
+      "ticker": "MSFT"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:36.462404"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "size": 10,
+      "page": 0,
+      "ticker": "MSFT"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:37.385076"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "MSFT",
+      "category": "transcript",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:38.305903"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "MSFT",
+      "category": "filing",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:39.232219"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "MSFT",
+      "category": "analyst",
+      "size": 20
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:40.150788"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "MSFT",
+      "category": "earnings",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:41.070473"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/resolve-symbol",
+    "status": 403,
+    "body": {
+      "ticker": "AMZN"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:41.992181"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "AMZN",
+      "timeframe": "1D",
+      "bars": 100
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:42.911470"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "AMZN",
+      "timeframe": "1H",
+      "bars": 200
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:43.641502"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/v1/optionsv2",
+    "status": 403,
+    "body": {
+      "ticker": "AMZN"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:44.449161"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "size": 10,
+      "page": 0,
+      "ticker": "AMZN"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:45.373879"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "AMZN",
+      "category": "transcript",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:46.298375"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "AMZN",
+      "category": "filing",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:47.227693"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "AMZN",
+      "category": "analyst",
+      "size": 20
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:49.057346"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "AMZN",
+      "category": "earnings",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:49.980416"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/resolve-symbol",
+    "status": 403,
+    "body": {
+      "ticker": "META"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:50.900071"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "META",
+      "timeframe": "1D",
+      "bars": 100
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:52.131526"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/bars",
+    "status": 403,
+    "body": {
+      "ticker": "META",
+      "timeframe": "1H",
+      "bars": 200
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:52.909687"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/v1/optionsv2",
+    "status": 403,
+    "body": {
+      "ticker": "META"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:53.268551"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "size": 10,
+      "page": 0,
+      "ticker": "META"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:53.605773"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "META",
+      "category": "transcript",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:53.981072"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "META",
+      "category": "filing",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:54.323741"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "META",
+      "category": "analyst",
+      "size": 20
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:54.690339"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "ticker": "META",
+      "category": "earnings",
+      "size": 10
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:55.093369"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/search-symbols",
+    "status": 403,
+    "body": {
+      "query": "nvidia",
+      "limit": 20
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:55.455297"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/search-symbols",
+    "status": 403,
+    "body": {
+      "query": "apple",
+      "limit": 20
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:55.807108"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/tv-advanced/search-symbols",
+    "status": 403,
+    "body": {
+      "query": "SPY",
+      "limit": 20
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:56.147325"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.godelterminal.com/api/v1/venues?include=instrumentCount",
+    "status": 403,
+    "body": null,
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:56.491742"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.godelterminal.com/api/v1/instruments?size=50",
+    "status": 403,
+    "body": null,
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:15:56.839560"
+  }
+]

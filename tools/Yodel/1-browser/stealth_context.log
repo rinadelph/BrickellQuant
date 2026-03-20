@@ -1,0 +1,169 @@
+
+══════════════════════════════════════════════════════════════════════
+  🥷 GODEL TERMINAL — Stealth Context Browser
+  Target: https://app.godelterminal.com/?page=register
+══════════════════════════════════════════════════════════════════════
+  ✅ Stealth browser initialized
+
+  🌐 Navigating to: https://app.godelterminal.com/?page=register
+
+──────────────────────────────────────────────────────────────────────
+  👤 MANUAL INTERACTION REQUIRED:
+  1. Complete any Cloudflare challenge
+  2. Create an account or log in
+  3. The browser will detect when you're logged in
+──────────────────────────────────────────────────────────────────────
+
+  ✅ Login detected! Starting API capture...
+  💾 Session state saved
+
+  🔍 Exploring application routes...
+
+  📍 Trying Dashboard: https://app.godelterminal.com?page=dashboard
+  ✅ Found route: https://app.godelterminal.com/?page=dashboard
+
+  📍 Trying Portfolio: https://app.godelterminal.com?page=portfolio
+  ✅ Found route: https://app.godelterminal.com/?page=portfolio
+
+  📍 Trying Watchlist: https://app.godelterminal.com?page=watchlist
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://app.godelterminal.com/?page=watchlist", waiting until "networkidle"
+
+
+  📍 Trying Watchlist: https://app.godelterminal.com/watchlist
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Watchlist: https://app.godelterminal.com#watchlist
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Watchlist: https://app.godelterminal.com?page=favorites
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Watchlist: https://app.godelterminal.com/favorites
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Watchlist: https://app.godelterminal.com#favorites
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Watchlist: https://app.godelterminal.com?page=watch
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Watchlist: https://app.godelterminal.com/watch
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Watchlist: https://app.godelterminal.com#watch
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Screener: https://app.godelterminal.com?page=screener
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Screener: https://app.godelterminal.com/screener
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Screener: https://app.godelterminal.com#screener
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Screener: https://app.godelterminal.com?page=screen
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Screener: https://app.godelterminal.com/screen
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Screener: https://app.godelterminal.com#screen
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Screener: https://app.godelterminal.com?page=scanner
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Screener: https://app.godelterminal.com/scanner
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Screener: https://app.godelterminal.com#scanner
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Screener: https://app.godelterminal.com?page=filter
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Screener: https://app.godelterminal.com/filter
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Screener: https://app.godelterminal.com#filter
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying News: https://app.godelterminal.com?page=news
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying News: https://app.godelterminal.com/news
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying News: https://app.godelterminal.com#news
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying News: https://app.godelterminal.com?page=feed
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying News: https://app.godelterminal.com/feed
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying News: https://app.godelterminal.com#feed
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying News: https://app.godelterminal.com?page=updates
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying News: https://app.godelterminal.com/updates
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying News: https://app.godelterminal.com#updates
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Research: https://app.godelterminal.com?page=research
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Research: https://app.godelterminal.com/research
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Research: https://app.godelterminal.com#research
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Research: https://app.godelterminal.com?page=analysis
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Research: https://app.godelterminal.com/analysis
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Research: https://app.godelterminal.com#analysis
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Research: https://app.godelterminal.com?page=reports
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Research: https://app.godelterminal.com/reports
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Research: https://app.godelterminal.com#reports
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Options: https://app.godelterminal.com?page=options
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Options: https://app.godelterminal.com/options
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Options: https://app.godelterminal.com#options
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Options: https://app.godelterminal.com?page=derivatives
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Options: https://app.godelterminal.com/derivatives
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Options: https://app.godelterminal.com#derivatives
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Settings: https://app.godelterminal.com?page=settings
+  ⏭  Skipping: Page.goto: Target page, context or browser has been closed
+
+  📍 Trying Settings: https://app.godelterminal.com/settings

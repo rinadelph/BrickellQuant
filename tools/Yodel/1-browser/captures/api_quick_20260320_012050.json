@@ -1,0 +1,48 @@
+[
+  {
+    "ts": "2026-03-20T01:20:50.209292",
+    "method": "GET",
+    "url": "https://api.godelterminal.com/api/users/me",
+    "status": 0,
+    "req_body": null,
+    "resp": ""
+  },
+  {
+    "ts": "2026-03-20T01:20:50.346356",
+    "method": "GET",
+    "url": "https://api.godelterminal.com/api/v1/watchlists",
+    "status": 0,
+    "req_body": null,
+    "resp": ""
+  },
+  {
+    "ts": "2026-03-20T01:20:50.483890",
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 0,
+    "req_body": {
+      "size": 3,
+      "page": 0,
+      "ticker": "NVDA"
+    },
+    "resp": ""
+  },
+  {
+    "ts": "2026-03-20T01:20:50.636810",
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/v1/optionsv2",
+    "status": 0,
+    "req_body": {
+      "ticker": "NVDA"
+    },
+    "resp": ""
+  },
+  {
+    "ts": "2026-03-20T01:20:50.787888",
+    "method": "GET",
+    "url": "https://api.godelterminal.com/api/chat/channels",
+    "status": 0,
+    "req_body": null,
+    "resp": ""
+  }
+]

@@ -1,0 +1,29 @@
+
+══════════════════════════════════════════════════════════════════════
+  🔬 GODEL BROWSER
+══════════════════════════════════════════════════════════════════════
+
+  [1] Self-healing loop (fresh account each time)
+  [2] Single run (manual login)
+
+  Choice: [01:31:48] 🚀 [run_001_013148] Launching CloakBrowser…
+[01:31:51] 🌐 [run_001_013148] Opening registration page…
+[01:31:53] ⏳ Waiting for login (up to 5 min)…
+[01:31:53] ⏳ [run_001_013148] Waiting for you to register & log in…
+[01:31:53]    👉 Register in the browser window, then log in
+[01:31:56]   ❌ 403 GET /api/chat/channels
+[01:31:56]   ❌ 403 GET /api/fetchBreaking
+[01:31:56]   ❌ 403 GET /api/v1/watchlists
+[01:31:56]   ❌ 403 POST /api/news/sub_categories
+[01:31:56]   ❌ 403 POST /api/news/items
+[01:31:56]   ❌ 403 POST /api/v1/optionsv2
+[01:32:01]   ❌ 403 POST /api/tv-advanced/resolve-symbol
+[01:32:12]   ❌ 403 POST /api/v1/auth/signup
+[01:32:14]   ❌ 403 POST /api/v1/auth/signup
+[01:32:15]   ❌ 403 POST /api/v1/auth/signup
+[01:32:16]   ❌ 403 GET /api/fetchBreaking
+[01:32:36]   ❌ 403 GET /api/fetchBreaking
+[01:32:56]   ❌ 403 GET /api/fetchBreaking
+[01:33:16]   ❌ 403 GET /api/fetchBreaking
+[01:33:36]   ❌ 403 GET /api/fetchBreaking
+[01:33:56]   ❌ 403 GET /api/fetchBreaking

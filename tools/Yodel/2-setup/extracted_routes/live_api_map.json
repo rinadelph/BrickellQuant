@@ -1,0 +1,288 @@
+{
+  "timestamp": "2026-03-20T01:04:57.683460",
+  "total_api_calls": 12,
+  "unique_endpoints": 85,
+  "auth_headers_captured": [],
+  "by_category": {
+    "admin": [
+      "/api/v1/admin/users",
+      "/api/v1/admin/users/lookup?identifier="
+    ],
+    "aggregates": [
+      "/api/v1/aggregates"
+    ],
+    "analyst-ratings?seriesId=": [
+      "/api/v1/analyst-ratings?seriesId="
+    ],
+    "aum": [
+      "/api/v1/aum/global"
+    ],
+    "auth": [
+      "/api/v1/auth/email-verification",
+      "/api/v1/auth/login",
+      "/api/v1/auth/password-reset",
+      "/api/v1/auth/password-reset/request",
+      "/api/v1/auth/password-reset/validation?resetToken=",
+      "/api/v1/auth/signup"
+    ],
+    "brokerage-integrations": [
+      "/api/v1/brokerage-integrations"
+    ],
+    "brokerages": [
+      "/api/v1/brokerages"
+    ],
+    "bug-report": [
+      "/api/bug-report"
+    ],
+    "chat": [
+      "/api/chat/channels",
+      "/api/chat/channels/2eadcf5d-0443-4327-b5f7-3380de180b5a/messages?size=50",
+      "/api/chat/hide_channel",
+      "/api/chat/messages",
+      "/api/v1/chat/message"
+    ],
+    "command-action": [
+      "/api/v1/command-action"
+    ],
+    "company-profile": [
+      "/api/v1/company-profile"
+    ],
+    "consolidated_financials": [
+      "/api/v1/consolidated_financials"
+    ],
+    "corporate-actions": [
+      "/api/v1/corporate-actions/dvd"
+    ],
+    "earning-trends": [
+      "/api/v1/earning-trends"
+    ],
+    "earnings-estimates?seriesId=": [
+      "/api/v1/earnings-estimates?seriesId="
+    ],
+    "earnings?seriesId=": [
+      "/api/v1/earnings?seriesId="
+    ],
+    "entitlements": [
+      "/api/v1/entitlements"
+    ],
+    "exists": [
+      "/api/v1/exists/instrument"
+    ],
+    "feedback": [
+      "/api/feedback"
+    ],
+    "fetch": [
+      "/api/fetch"
+    ],
+    "fetchBreaking": [
+      "/api/fetchBreaking"
+    ],
+    "fetchResearch": [
+      "/api/fetchResearch"
+    ],
+    "fetchhalts": [
+      "/api/fetchhalts"
+    ],
+    "holders": [
+      "/api/v1/holders"
+    ],
+    "https:": [
+      "https://wojak.godelterminal.com/array/phc_ko2dTRpepkFIIcjJMmJCbDjHolUs0aAqawUmzGVBTns/config.js",
+      "https://wojak.godelterminal.com/e/?ip=0&_=1773983017046&ver=1.350.0&compression=gzip-js",
+      "https://wojak.godelterminal.com/flags/?v=2&ip=0&_=1773983017422&ver=1.350.0&compression=base64",
+      "https://wojak.godelterminal.com/static/surveys.js?v=1.350.0"
+    ],
+    "instruments": [
+      "/api/v1/instruments"
+    ],
+    "ipos": [
+      "/api/ipos"
+    ],
+    "loginv2": [
+      "/api/loginv2"
+    ],
+    "logoutv2": [
+      "/api/logoutv2"
+    ],
+    "most-v2": [
+      "/api/most-v2"
+    ],
+    "news": [
+      "/api/news/categories",
+      "/api/news/file-content",
+      "/api/news/items",
+      "/api/news/search/sources",
+      "/api/news/sources",
+      "/api/news/sub_categories"
+    ],
+    "notifications": [
+      "/api/notifications",
+      "/api/notifications/unread-count"
+    ],
+    "notifications?size=20": [
+      "/api/notifications?size=20"
+    ],
+    "notifications?size=20&beforeCursor=": [
+      "/api/notifications?size=20&beforeCursor="
+    ],
+    "oauth1": [
+      "/api/v1/oauth1/twitter/authorize?parent_origin="
+    ],
+    "oauth2": [
+      "/api/v1/oauth2/github/authorize?parent_origin=",
+      "/api/v1/oauth2/google/authorize?parent_origin="
+    ],
+    "optionsv2": [
+      "/api/v1/optionsv2"
+    ],
+    "paged": [
+      "/api/paged/filings"
+    ],
+    "people": [
+      "/api/people"
+    ],
+    "ratio-analysis": [
+      "/api/v1/ratio-analysis"
+    ],
+    "search": [
+      "/api/v1/search"
+    ],
+    "sectors": [
+      "/api/sectors"
+    ],
+    "series-ids-by-v1?symbols=": [
+      "/api/series-ids-by-v1?symbols="
+    ],
+    "shortinterest": [
+      "/api/v1/shortinterest"
+    ],
+    "tickers?timeframe=": [
+      "/api/tickers?timeframe="
+    ],
+    "top-news-items": [
+      "/api/v1/top-news-items"
+    ],
+    "tts": [
+      "/api/tts"
+    ],
+    "tv-advanced": [
+      "/api/tv-advanced/bars",
+      "/api/tv-advanced/resolve-symbol"
+    ],
+    "user-profile": [
+      "/api/v1/user-profile/display-names?displayName="
+    ],
+    "user-profiles?query=": [
+      "/api/v1/user-profiles?query="
+    ],
+    "users": [
+      "/api/users/display-names/used?displayName=",
+      "/api/users/me/layout",
+      "/api/v1/users",
+      "/api/v1/users/entitlement-subscriptions/checkout",
+      "/api/v1/users/entitlement-subscriptions/godel-terminal/trial-upgrade",
+      "/api/v1/users/entitlement-subscriptions/godel-terminal/upgrade",
+      "/api/v1/users/me/aum",
+      "/api/v1/users/me/billing-info",
+      "/api/v1/users/me/billing-portal",
+      "/api/v1/users/me/entitlement-subscriptions",
+      "/api/v1/users/me/profile"
+    ],
+    "venues?include=instrumentCount": [
+      "/api/v1/venues?include=instrumentCount"
+    ],
+    "watchlists": [
+      "/api/v1/watchlists"
+    ],
+    "wojak": [
+      "/api/wojak"
+    ]
+  },
+  "all_endpoints": [
+    "/api/bug-report",
+    "/api/chat/channels",
+    "/api/chat/channels/2eadcf5d-0443-4327-b5f7-3380de180b5a/messages?size=50",
+    "/api/chat/hide_channel",
+    "/api/chat/messages",
+    "/api/feedback",
+    "/api/fetch",
+    "/api/fetchBreaking",
+    "/api/fetchResearch",
+    "/api/fetchhalts",
+    "/api/ipos",
+    "/api/loginv2",
+    "/api/logoutv2",
+    "/api/most-v2",
+    "/api/news/categories",
+    "/api/news/file-content",
+    "/api/news/items",
+    "/api/news/search/sources",
+    "/api/news/sources",
+    "/api/news/sub_categories",
+    "/api/notifications",
+    "/api/notifications/unread-count",
+    "/api/notifications?size=20",
+    "/api/notifications?size=20&beforeCursor=",
+    "/api/paged/filings",
+    "/api/people",
+    "/api/sectors",
+    "/api/series-ids-by-v1?symbols=",
+    "/api/tickers?timeframe=",
+    "/api/tts",
+    "/api/tv-advanced/bars",
+    "/api/tv-advanced/resolve-symbol",
+    "/api/users/display-names/used?displayName=",
+    "/api/users/me/layout",
+    "/api/v1/admin/users",
+    "/api/v1/admin/users/lookup?identifier=",
+    "/api/v1/aggregates",
+    "/api/v1/analyst-ratings?seriesId=",
+    "/api/v1/aum/global",
+    "/api/v1/auth/email-verification",
+    "/api/v1/auth/login",
+    "/api/v1/auth/password-reset",
+    "/api/v1/auth/password-reset/request",
+    "/api/v1/auth/password-reset/validation?resetToken=",
+    "/api/v1/auth/signup",
+    "/api/v1/brokerage-integrations",
+    "/api/v1/brokerages",
+    "/api/v1/chat/message",
+    "/api/v1/command-action",
+    "/api/v1/company-profile",
+    "/api/v1/consolidated_financials",
+    "/api/v1/corporate-actions/dvd",
+    "/api/v1/earning-trends",
+    "/api/v1/earnings-estimates?seriesId=",
+    "/api/v1/earnings?seriesId=",
+    "/api/v1/entitlements",
+    "/api/v1/exists/instrument",
+    "/api/v1/holders",
+    "/api/v1/instruments",
+    "/api/v1/oauth1/twitter/authorize?parent_origin=",
+    "/api/v1/oauth2/github/authorize?parent_origin=",
+    "/api/v1/oauth2/google/authorize?parent_origin=",
+    "/api/v1/optionsv2",
+    "/api/v1/ratio-analysis",
+    "/api/v1/search",
+    "/api/v1/shortinterest",
+    "/api/v1/top-news-items",
+    "/api/v1/user-profile/display-names?displayName=",
+    "/api/v1/user-profiles?query=",
+    "/api/v1/users",
+    "/api/v1/users/entitlement-subscriptions/checkout",
+    "/api/v1/users/entitlement-subscriptions/godel-terminal/trial-upgrade",
+    "/api/v1/users/entitlement-subscriptions/godel-terminal/upgrade",
+    "/api/v1/users/me/aum",
+    "/api/v1/users/me/billing-info",
+    "/api/v1/users/me/billing-portal",
+    "/api/v1/users/me/entitlement-subscriptions",
+    "/api/v1/users/me/profile",
+    "/api/v1/venues?include=instrumentCount",
+    "/api/v1/watchlists",
+    "/api/wojak",
+    "https://wojak.godelterminal.com/array/phc_ko2dTRpepkFIIcjJMmJCbDjHolUs0aAqawUmzGVBTns/config.js",
+    "https://wojak.godelterminal.com/e/?ip=0&_=1773983017046&ver=1.350.0&compression=gzip-js",
+    "https://wojak.godelterminal.com/flags/?v=2&ip=0&_=1773983017422&ver=1.350.0&compression=base64",
+    "https://wojak.godelterminal.com/static/surveys.js?v=1.350.0"
+  ]
+}

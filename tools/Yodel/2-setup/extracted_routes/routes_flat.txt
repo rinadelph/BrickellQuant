@@ -1,0 +1,4 @@
+/api/early_access_features/?token=
+/api/product_tours/?token=
+/api/surveys/?token=
+/api/web_experiments/?token=

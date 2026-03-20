@@ -1,0 +1,12 @@
+[
+  "/api/chat/channels",
+  "/api/chat/channels/{id}/messages",
+  "/api/fetchBreaking",
+  "/api/news/items",
+  "/api/news/sub_categories",
+  "/api/tv-advanced/bars",
+  "/api/tv-advanced/resolve-symbol",
+  "/api/v1/optionsv2",
+  "/api/v1/search",
+  "/api/v1/watchlists"
+]

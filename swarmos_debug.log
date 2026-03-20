@@ -1,0 +1,1634 @@
+02:19:02.842816 ✓ Clipboard initialized for image support
+02:19:02.853754 Loaded 10 provider configs from providers.json for UI rendering
+02:19:02.854504 Using active profile: ClaudeCode / claude-sonnet-4-6 (profile: balanced)
+02:19:02.854511 Model configuration source: active profile (balanced)
+02:19:02.854610 Loaded max tokens from settings: 31999
+02:19:02.858327 ============================================================
+02:19:02.858341 AUTO-COMPACTION SETTINGS AT STARTUP:
+02:19:02.858343   - EnableAutoCompaction: false
+02:19:02.858346   - AutoCompactionThresholdPercent: 0.8000 (80.0%)
+02:19:02.858350   - ContinueIfRunning: false
+02:19:02.858351 ========[     0.073s] [PROXY          ] sdk_integration_provider.go:1057 | Provider: ClaudeCode (apiType: anthropic) | URL:  | Proxy: disabled
+[     0.084s] [PROVIDER       ] sdk_integration_provider.go:1261 | Anthropic Config | BaseURL: https://api.anthropic.com | APIKey: sk-ant-oat01-N8... | IsOAuth: true
+[     0.094s] [PROVIDER       ] sdk_integration_provider.go:1269 | Created Anthropic provider | BaseURL: https://api.anthropic.com | OAuth:02:19:[     0.138s] [PROXY          ] sdk_integration_provider.go:1057 | Provider: ClaudeCode (apiType: anthropic) | URL:  | Proxy: disabled
+[     0.149s] [PROVIDER       ] sdk_integration_provider.go:1261 | Anthropic Config | BaseURL: https://api.anthropic.com | APIKey: sk-ant-oat01-N8... | IsOAuth: true
+[     0.154s] [PROVIDER       ] sdk_integration_provider.go:1269 | Created Anthropic provider | BaseURL: https://api.anthropic.com | OAuth: true
+[     0.222s] [SETTINGS       ] manager.go:25 | [PluginsSettings] LoadMarketplace called, marketplace=true, loading=false, loaded=false
+[     0.234s] [SETTINGS       ] manager.go:25 | [PluginsSettings] LoadMarketplace: starting background load
+[     0.242s] [SETTINGS       ] manager.go:25 | [PluginsSettings] LoadMarketplace: calling marketplace.Update
+[     0.496s] [VOICE          ] app_voice.go:216 | initVoice: using OAuth token from ~/.swarmos/oauth.json
+[     0.505s] [VOICE          ] app_voice.go:226 | initVoice: credentials found, creating voice manager
+[     0.509s] [VOICE          ] app_voice.go:236 | initVoice: voice URL = wss://api.anthropic.com/api/ws/speech_to_text/voice_stream
+[     0.514s] [VOICE          ] app_voice.go:270 | initVoice: voice manager initialized successfully
+[     0.518s] [MAIN           ] main.go:677 | Starting program
+[     0.524s] [APP-INIT       ] app_update.go:24 | Initializing app
+[     0.529s] [INIT           ] app_update.go:37 | Terminal size from direct query: 92x61
+[     0.533s] [VOICE          ] app_update.go:52 | Init: starting voice event listener
+[     2.642s] [SETTINGS       ] manager.go:25 | [PluginsSettings] LoadMarketplace: Update succeeded
+[     2.667s] [SETTINGS       ] manager.go:25 | [PluginsSettings] LoadMarketplace: got 86 entries
+[     8.721s] [VOICE          ] app_voice.go:21 | event channel closed, listener stopping
+[    17.841s] [CONV           ] chat_state.go:657 | NEW CHAT DIRECT id=20260320021920 model=zai-glm-4.7 contextWindow=1000000 provider=Cerebras
+initialized with 10 tools
+02:19:03.009603 MCP prompt provider set on command autocomplete
+02:19:03.009607 Plugin command provider set on command autocomplete
+02:19:03.009612 Mention autocomplete providers set (agents + tmux)
+02:19:03.009720 Failed to register web search tool: tool anthropic_web_search already registered (error_id=err_1b8bf2957bb550c950aa)
+02:19:03.009730 Agents settings chat callback configured
+02:19:03.009734 MCP settings chat callback configured
+02:19:03.009760 Populated 35 available tools for agents settings
+02:19:03.009765 Populated 4 available hooks for agents settings
+02:19:03.009771 Wired custom agents to delegate_task tool
+02:19:03.009775 Skills loader wired to settings
+02:19:03.009779 Skills loader wired to skill command
+02:19:03.009785 Skills initialized: 2 total, 0 active
+02:19:03.029463 Plugins loader wired to settings
+02:19:03.029483 Plugins loader wired to plugin command
+02:19:03.029488 Commands browser wired
+02:19:03.029495 Plugins initialized: 1 total, 1 enabled
+02:19:03.034706 [ContextWindow] model=claude-sonnet-4-6 matched=claude-sonnet-4-6 provider=ClaudeCode context_window=1000000 (match_type=exact, int format)
+02:19:03.037884 Loaded 1 workflows from /home/rincon/BrickellQuant/workflows
+02:19:03.037933 Workflow manager initialized with 1 workflows
+02:19:03.038291 Workflow assistant initialized
+02:19:03.281289 [CONV] Current workspace: /home/rincon/BrickellQuant, total conversations in storage: 5
+02:19:03.281359 [CONV] Loaded 5 conversations for workspace /home/rincon/BrickellQuant (skipped 0 cross-workspace)
+02:19:03.283296 Git panel initialized for workspace: /home/rincon/BrickellQuant
+02:19:03.316667 Found 0 enabled custom hooks to register
+02:19:03.366397 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.378616 [CACHE] Invalidating render caches (messagelist)
+02:19:03.378663 [CACHE] SetContent: hash mismatch, full reprocessing
+02:19:03.378669 [Resize] Viewport: 50x53 (total: 92x61, sidePanel: true)
+02:19:03.378674 WindowSizeMsg: 92x61
+02:19:03.387384 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.409029 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.428396 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.448868 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.469153 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.487933 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.509075 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.530170 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.551452 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.570286 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.590425 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.610955 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.630267 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.661952 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.685390 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.709760 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.729426 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.749265 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.768412 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.782393 [OpenRouter] Successfully fetched 350 models from OpenRouter API
+02:19:03.790914 [ModelCapabilities] providers.json changed (hash mismatch), refreshing from models.dev...
+02:19:03.791681 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.818292 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.840357 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.862899 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.882081 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.901685 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.921266 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.940751 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.959746 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:03.979336 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:04.000437 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:04.020302 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:04.640186 [KEY] handleKey received: key='tab' screen=0 sdk=true
+02:19:04.709401 [ModelsDev] Fetched 104 providers from models.dev
+02:19:04.715730 [ProviderRegistry] Loaded 10 provider mappings from /home/rincon/.swarmos/provider_registry.json
+02:19:04.719314 [Enrich] Skipping unregistered provider: minimax
+02:19:04.719355 [Enrich] Skipping unregistered provider: minimax
+02:19:04.723907 [Enrich] Enriched 394 models from models.dev
+02:19:04.725077 [ModelCapabilities] Successfully refreshed model capabilities
+02:19:04.832172 [KEY] handleKey received: key='tab' screen=0 sdk=true
+02:19:04.885628 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:04.900087 [CONV] Current workspace: /home/rincon/BrickellQuant, total conversations in storage: 5
+02:19:04.900550 [CONV] Loaded 5 conversations for workspace /home/rincon/BrickellQuant (skipped 0 cross-workspace)
+02:19:04.911451 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:04.994801 [KEY] handleKey received: key='tab' screen=0 sdk=true
+02:19:05.020252 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:05.147056 [KEY] handleKey received: key='tab' screen=0 sdk=true
+02:19:05.190815 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:06.069729 [KEY] handleKey received: key='ctrl+p' screen=0 sdk=true
+02:19:06.090890 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:06.624692 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:06.711860 [KEY] handleKey received: key='down' screen=0 sdk=true
+02:19:06.721179 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:06.867050 [KEY] handleKey received: key='down' screen=0 sdk=true
+02:19:06.908490 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:07.001506 [KEY] handleKey received: key='down' screen=0 sdk=true
+02:19:07.011346 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:07.121225 [KEY] handleKey received: key='down' screen=0 sdk=true
+02:19:07.131338 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:07.240907 [KEY] handleKey received: key='down' screen=0 sdk=true
+02:19:07.249598 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:07.374607 [KEY] handleKey received: key='down' screen=0 sdk=true
+02:19:07.395191 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:07.505290 [KEY] handleKey received: key='down' screen=0 sdk=true
+02:19:07.515315 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:07.623502 [KEY] handleKey received: key='down' screen=0 sdk=true
+02:19:07.633153 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:07.883554 [KEY] handleKey received: key='enter' screen=0 sdk=true
+02:19:07.895078 [ContextWindow] model=claude-sonnet-4-6 matched=claude-sonnet-4-6 provider=ClaudeCode context_window=1000000 (match_type=exact, int format)
+02:19:07.904479 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:09.233026 [KEY] handleKey received: key='p' screen=0 sdk=true
+02:19:09.248117 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:09.336528 [KEY] handleKey received: key='l' screen=0 sdk=true
+02:19:09.354307 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:09.388324 [KEY] handleKey received: key='e' screen=0 sdk=true
+02:19:09.397667 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:09.463072 [KEY] handleKey received: key='a' screen=0 sdk=true
+02:19:09.471992 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:10.016121 [KEY] handleKey received: key='tab' screen=0 sdk=true
+02:19:10.031286 Updated MCP settings data: 38 builtin tools, 17 servers
+02:19:10.776497 [KEY] handleKey received: key='esc' screen=0 sdk=true
+02:19:10.795199 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:11.508861 [KEY] handleKey received: key='p' screen=0 sdk=true
+02:19:11.535625 [GetContentHeight] width=74, maxWidth=68, valueLen=1, wrappedLines=1
+02:19:11.535649 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:11.637393 [KEY] handleKey received: key='l' screen=0 sdk=true
+02:19:11.637457 [SimpleInput] BEFORE UPDATE: value='p', cursor=1, len=1
+02:19:11.637475 [SimpleInput] KeyMsg: string='l', text='l', code=108, mod=0, timeSinceLast=2562047h47m16.854775807s
+02:19:11.637504 [SimpleInput] Character typed: text='l'
+02:19:11.637515 [SimpleInput] AFTER KEY: value='pl', cursor=2, buffer=''
+02:19:11.648478 [GetContentHeight] width=74, maxWidth=68, valueLen=2, wrappedLines=1
+02:19:11.648533 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:11.742189 [KEY] handleKey received: key='e' screen=0 sdk=true
+02:19:11.742281 [SimpleInput] BEFORE UPDATE: value='pl', cursor=2, len=2
+02:19:11.742308 [SimpleInput] KeyMsg: string='e', text='e', code=101, mod=0, timeSinceLast=104.833637ms
+02:19:11.742354 [SimpleInput] Character typed: text='e'
+02:19:11.742372 [SimpleInput] AFTER KEY: value='ple', cursor=3, buffer=''
+02:19:11.753879 [GetContentHeight] width=74, maxWidth=68, valueLen=3, wrappedLines=1
+02:19:11.753930 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:11.786193 [KEY] handleKey received: key='a' screen=0 sdk=true
+02:19:11.786235 [SimpleInput] BEFORE UPDATE: value='ple', cursor=3, len=3
+02:19:11.786242 [SimpleInput] KeyMsg: string='a', text='a', code=97, mod=0, timeSinceLast=43.935478ms
+02:19:11.786253 [SimpleInput] Character typed: text='a'
+02:19:11.786258 [SimpleInput] AFTER KEY: value='plea', cursor=4, buffer=''
+02:19:11.796326 [GetContentHeight] width=74, maxWidth=68, valueLen=4, wrappedLines=1
+02:19:11.796402 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:11.905706 [KEY] handleKey received: key='s' screen=0 sdk=true
+02:19:11.905791 [SimpleInput] BEFORE UPDATE: value='plea', cursor=4, len=4
+02:19:11.905814 [SimpleInput] KeyMsg: string='s', text='s', code=115, mod=0, timeSinceLast=119.569804ms
+02:19:11.905877 [SimpleInput] Character typed: text='s'
+02:19:11.905892 [SimpleInput] AFTER KEY: value='pleas', cursor=5, buffer=''
+02:19:11.916805 [GetContentHeight] width=74, maxWidth=68, valueLen=5, wrappedLines=1
+02:19:11.916853 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:12.043022 [KEY] handleKey received: key='e' screen=0 sdk=true
+02:19:12.043084 [SimpleInput] BEFORE UPDATE: value='pleas', cursor=5, len=5
+02:19:12.043114 [SimpleInput] KeyMsg: string='e', text='e', code=101, mod=0, timeSinceLast=137.301531ms
+02:19:12.043167 [SimpleInput] Character typed: text='e'
+02:19:12.043179 [SimpleInput] AFTER KEY: value='please', cursor=6, buffer=''
+02:19:12.067410 [GetContentHeight] width=74, maxWidth=68, valueLen=6, wrappedLines=1
+02:19:12.067467 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:12.116545 [KEY] handleKey received: key='space' screen=0 sdk=true
+02:19:12.116619 [SimpleInput] BEFORE UPDATE: value='please', cursor=6, len=6
+02:19:12.116640 [SimpleInput] KeyMsg: string='space', text=' ', code=32, mod=0, timeSinceLast=73.526076ms
+02:19:12.116658 [SimpleInput] Space - new value: 'please '
+02:19:12.116667 [SimpleInput] AFTER KEY: value='please ', cursor=7, buffer=''
+02:19:12.126802 [GetContentHeight] width=74, maxWidth=68, valueLen=7, wrappedLines=1
+02:19:12.126831 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:12.233776 [KEY] handleKey received: key='s' screen=0 sdk=true
+02:19:12.233849 [SimpleInput] BEFORE UPDATE: value='please ', cursor=7, len=7
+02:19:12.233865 [SimpleInput] KeyMsg: string='s', text='s', code=115, mod=0, timeSinceLast=117.224699ms
+02:19:12.233932 [SimpleInput] Character typed: text='s'
+02:19:12.233940 [SimpleInput] AFTER KEY: value='please s', cursor=8, buffer=''
+02:19:12.244816 [GetContentHeight] width=74, maxWidth=68, valueLen=8, wrappedLines=1
+02:19:12.244872 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:12.340247 [KEY] handleKey received: key='t' screen=0 sdk=true
+02:19:12.340325 [SimpleInput] BEFORE UPDATE: value='please s', cursor=8, len=8
+02:19:12.340344 [SimpleInput] KeyMsg: string='t', text='t', code=116, mod=0, timeSinceLast=106.478555ms
+02:19:12.340368 [SimpleInput] Character typed: text='t'
+02:19:12.340378 [SimpleInput] AFTER KEY: value='please st', cursor=9, buffer=''
+02:19:12.351247 [GetContentHeight] width=74, maxWidth=68, valueLen=9, wrappedLines=1
+02:19:12.351316 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:12.406496 [KEY] handleKey received: key='a' screen=0 sdk=true
+02:19:12.406544 [SimpleInput] BEFORE UPDATE: value='please st', cursor=9, len=9
+02:19:12.406554 [SimpleInput] KeyMsg: string='a', text='a', code=97, mod=0, timeSinceLast=66.211425ms
+02:19:12.406568 [SimpleInput] Character typed: text='a'
+02:19:12.406574 [SimpleInput] AFTER KEY: value='please sta', cursor=10, buffer=''
+02:19:12.416326 [GetContentHeight] width=74, maxWidth=68, valueLen=10, wrappedLines=1
+02:19:12.416360 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:12.530558 [KEY] handleKey received: key='g' screen=0 sdk=true
+02:19:12.530663 [SimpleInput] BEFORE UPDATE: value='please sta', cursor=10, len=10
+02:19:12.530693 [SimpleInput] KeyMsg: string='g', text='g', code=103, mod=0, timeSinceLast=124.136137ms
+02:19:12.530720 [SimpleInput] Character typed: text='g'
+02:19:12.530731 [SimpleInput] AFTER KEY: value='please stag', cursor=11, buffer=''
+02:19:12.563286 [GetContentHeight] width=74, maxWidth=68, valueLen=11, wrappedLines=1
+02:19:12.563388 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:12.590825 [KEY] handleKey received: key='e' screen=0 sdk=true
+02:19:12.590862 [SimpleInput] BEFORE UPDATE: value='please stag', cursor=11, len=11
+02:19:12.590870 [SimpleInput] KeyMsg: string='e', text='e', code=101, mod=0, timeSinceLast=60.179122ms
+02:19:12.590880 [SimpleInput] Character typed: text='e'
+02:19:12.590884 [SimpleInput] AFTER KEY: value='please stage', cursor=12, buffer=''
+02:19:12.599925 [GetContentHeight] width=74, maxWidth=68, valueLen=12, wrappedLines=1
+02:19:12.599965 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:12.753917 [KEY] handleKey received: key='space' screen=0 sdk=true
+02:19:12.753983 [SimpleInput] BEFORE UPDATE: value='please stage', cursor=12, len=12
+02:19:12.753999 [SimpleInput] KeyMsg: string='space', text=' ', code=32, mod=0, timeSinceLast=163.128115ms
+02:19:12.754019 [SimpleInput] Space - new value: 'please stage '
+02:19:12.754028 [SimpleInput] AFTER KEY: value='please stage ', cursor=13, buffer=''
+02:19:12.783158 [GetContentHeight] width=74, maxWidth=68, valueLen=13, wrappedLines=1
+02:19:12.783200 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:12.821902 [KEY] handleKey received: key='a' screen=0 sdk=true
+02:19:12.821945 [SimpleInput] BEFORE UPDATE: value='please stage ', cursor=13, len=13
+02:19:12.821974 [SimpleInput] KeyMsg: string='a', text='a', code=97, mod=0, timeSinceLast=67.97539ms
+02:19:12.821989 [SimpleInput] Character typed: text='a'
+02:19:12.821994 [SimpleInput] AFTER KEY: value='please stage a', cursor=14, buffer=''
+02:19:12.831372 [GetContentHeight] width=74, maxWidth=68, valueLen=14, wrappedLines=1
+02:19:12.831399 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:12.932575 [KEY] handleKey received: key='n' screen=0 sdk=true
+02:19:12.932644 [SimpleInput] BEFORE UPDATE: value='please stage a', cursor=14, len=14
+02:19:12.932659 [SimpleInput] KeyMsg: string='n', text='n', code=110, mod=0, timeSinceLast=110.684672ms
+02:19:12.932711 [SimpleInput] Character typed: text='n'
+02:19:12.932720 [SimpleInput] AFTER KEY: value='please stage an', cursor=15, buffer=''
+02:19:12.942310 [GetContentHeight] width=74, maxWidth=68, valueLen=15, wrappedLines=1
+02:19:12.942358 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:13.001144 [KEY] handleKey received: key='d' screen=0 sdk=true
+02:19:13.001182 [SimpleInput] BEFORE UPDATE: value='please stage an', cursor=15, len=15
+02:19:13.001189 [SimpleInput] KeyMsg: string='d', text='d', code=100, mod=0, timeSinceLast=68.531035ms
+02:19:13.001203 [SimpleInput] Character typed: text='d'
+02:19:13.001207 [SimpleInput] AFTER KEY: value='please stage and', cursor=16, buffer=''
+02:19:13.010400 [GetContentHeight] width=74, maxWidth=68, valueLen=16, wrappedLines=1
+02:19:13.010448 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:13.095015 [KEY] handleKey received: key='space' screen=0 sdk=true
+02:19:13.095075 [SimpleInput] BEFORE UPDATE: value='please stage and', cursor=16, len=16
+02:19:13.095087 [SimpleInput] KeyMsg: string='space', text=' ', code=32, mod=0, timeSinceLast=93.898168ms
+02:19:13.095141 [SimpleInput] Space - new value: 'please stage and '
+02:19:13.095150 [SimpleInput] AFTER KEY: value='please stage and ', cursor=17, buffer=''
+02:19:13.104692 [GetContentHeight] width=74, maxWidth=68, valueLen=17, wrappedLines=1
+02:19:13.104759 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:13.162376 [KEY] handleKey received: key='c' screen=0 sdk=true
+02:19:13.162443 [SimpleInput] BEFORE UPDATE: value='please stage and ', cursor=17, len=17
+02:19:13.162465 [SimpleInput] KeyMsg: string='c', text='c', code=99, mod=0, timeSinceLast=67.37695ms
+02:19:13.162487 [SimpleInput] Character typed: text='c'
+02:19:13.162495 [SimpleInput] AFTER KEY: value='please stage and c', cursor=18, buffer=''
+02:19:13.171708 [GetContentHeight] width=74, maxWidth=68, valueLen=18, wrappedLines=1
+02:19:13.171755 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:13.210313 [KEY] handleKey received: key='o' screen=0 sdk=true
+02:19:13.210351 [SimpleInput] BEFORE UPDATE: value='please stage and c', cursor=18, len=18
+02:19:13.210357 [SimpleInput] KeyMsg: string='o', text='o', code=111, mod=0, timeSinceLast=47.893985ms
+02:19:13.210368 [SimpleInput] Character typed: text='o'
+02:19:13.210371 [SimpleInput] AFTER KEY: value='please stage and co', cursor=19, buffer=''
+02:19:13.219135 [GetContentHeight] width=74, maxWidth=68, valueLen=19, wrappedLines=1
+02:19:13.219164 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:13.271843 [KEY] handleKey received: key='m' screen=0 sdk=true
+02:19:13.271878 [SimpleInput] BEFORE UPDATE: value='please stage and co', cursor=19, len=19
+02:19:13.271885 [SimpleInput] KeyMsg: string='m', text='m', code=109, mod=0, timeSinceLast=61.5268ms
+02:19:13.271895 [SimpleInput] Character typed: text='m'
+02:19:13.271898 [SimpleInput] AFTER KEY: value='please stage and com', cursor=20, buffer=''
+02:19:13.280629 [GetContentHeight] width=74, maxWidth=68, valueLen=20, wrappedLines=1
+02:19:13.280658 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:13.377620 [KEY] handleKey received: key='m' screen=0 sdk=true
+02:19:13.377718 [SimpleInput] BEFORE UPDATE: value='please stage and com', cursor=20, len=20
+02:19:13.377731 [SimpleInput] KeyMsg: string='m', text='m', code=109, mod=0, timeSinceLast=105.845249ms
+02:19:13.377751 [SimpleInput] Character typed: text='m'
+02:19:13.377756 [SimpleInput] AFTER KEY: value='please stage and comm', cursor=21, buffer=''
+02:19:13.386844 [GetContentHeight] width=74, maxWidth=68, valueLen=21, wrappedLines=1
+02:19:13.386869 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:13.530505 [KEY] handleKey received: key='m' screen=0 sdk=true
+02:19:13.530553 [SimpleInput] BEFORE UPDATE: value='please stage and comm', cursor=21, len=21
+02:19:13.530563 [SimpleInput] KeyMsg: string='m', text='m', code=109, mod=0, timeSinceLast=152.832737ms
+02:19:13.530599 [SimpleInput] Character typed: text='m'
+02:19:13.530604 [SimpleInput] AFTER KEY: value='please stage and commm', cursor=22, buffer=''
+02:19:13.554679 [GetContentHeight] width=74, maxWidth=68, valueLen=22, wrappedLines=1
+02:19:13.554739 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:14.257447 [KEY] handleKey received: key='i' screen=0 sdk=true
+02:19:14.257532 [SimpleInput] BEFORE UPDATE: value='please stage and commm', cursor=22, len=22
+02:19:14.257556 [SimpleInput] KeyMsg: string='i', text='i', code=105, mod=0, timeSinceLast=726.990545ms
+02:19:14.257585 [SimpleInput] Character typed: text='i'
+02:19:14.257595 [SimpleInput] AFTER KEY: value='please stage and commmi', cursor=23, buffer=''
+02:19:14.272393 [GetContentHeight] width=74, maxWidth=68, valueLen=23, wrappedLines=1
+02:19:14.272433 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:14.374064 [KEY] handleKey received: key='t' screen=0 sdk=true
+02:19:14.374182 [SimpleInput] BEFORE UPDATE: value='please stage and commmi', cursor=23, len=23
+02:19:14.374210 [SimpleInput] KeyMsg: string='t', text='t', code=116, mod=0, timeSinceLast=116.654819ms
+02:19:14.374243 [SimpleInput] Character typed: text='t'
+02:19:14.374253 [SimpleInput] AFTER KEY: value='please stage and commmit', cursor=24, buffer=''
+02:19:14.383880 [GetContentHeight] width=74, maxWidth=68, valueLen=24, wrappedLines=1
+02:19:14.383939 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:14.471923 [KEY] handleKey received: key='space' screen=0 sdk=true
+02:19:14.471985 [SimpleInput] BEFORE UPDATE: value='please stage and commmit', cursor=24, len=24
+02:19:14.472002 [SimpleInput] KeyMsg: string='space', text=' ', code=32, mod=0, timeSinceLast=97.793944ms
+02:19:14.472024 [SimpleInput] Space - new value: 'please stage and commmit '
+02:19:14.472031 [SimpleInput] AFTER KEY: value='please stage and commmit ', cursor=25, buffer=''
+02:19:14.482076 [GetContentHeight] width=74, maxWidth=68, valueLen=25, wrappedLines=1
+02:19:14.482184 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:14.520035 [KEY] handleKey received: key='e' screen=0 sdk=true
+02:19:14.520070 [SimpleInput] BEFORE UPDATE: value='please stage and commmit ', cursor=25, len=25
+02:19:14.520077 [SimpleInput] KeyMsg: string='e', text='e', code=101, mod=0, timeSinceLast=48.075668ms
+02:19:14.520088 [SimpleInput] Character typed: text='e'
+02:19:14.520092 [SimpleInput] AFTER KEY: value='please stage and commmit e', cursor=26, buffer=''
+02:19:14.529153 [GetContentHeight] width=74, maxWidth=68, valueLen=26, wrappedLines=1
+02:19:14.529178 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:14.632923 [KEY] handleKey received: key='v' screen=0 sdk=true
+02:19:14.632999 [SimpleInput] BEFORE UPDATE: value='please stage and commmit e', cursor=26, len=26
+02:19:14.633015 [SimpleInput] KeyMsg: string='v', text='v', code=118, mod=0, timeSinceLast=112.936708ms
+02:19:14.633036 [SimpleInput] Character typed: text='v'
+02:19:14.633043 [SimpleInput] AFTER KEY: value='please stage and commmit ev', cursor=27, buffer=''
+02:19:14.643488 [GetContentHeight] width=74, maxWidth=68, valueLen=27, wrappedLines=1
+02:19:14.643535 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:14.716818 [KEY] handleKey received: key='e' screen=0 sdk=true
+02:19:14.716869 [SimpleInput] BEFORE UPDATE: value='please stage and commmit ev', cursor=27, len=27
+02:19:14.716879 [SimpleInput] KeyMsg: string='e', text='e', code=101, mod=0, timeSinceLast=83.864522ms
+02:19:14.716893 [SimpleInput] Character typed: text='e'
+02:19:14.716899 [SimpleInput] AFTER KEY: value='please stage and commmit eve', cursor=28, buffer=''
+02:19:14.726230 [GetContentHeight] width=74, maxWidth=68, valueLen=28, wrappedLines=1
+02:19:14.726271 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:14.808159 [KEY] handleKey received: key='r' screen=0 sdk=true
+02:19:14.808217 [SimpleInput] BEFORE UPDATE: value='please stage and commmit eve', cursor=28, len=28
+02:19:14.808226 [SimpleInput] KeyMsg: string='r', text='r', code=114, mod=0, timeSinceLast=91.346977ms
+02:19:14.808237 [SimpleInput] Character typed: text='r'
+02:19:14.808241 [SimpleInput] AFTER KEY: value='please stage and commmit ever', cursor=29, buffer=''
+02:19:14.817405 [GetContentHeight] width=74, maxWidth=68, valueLen=29, wrappedLines=1
+02:19:14.817444 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:14.887724 [KEY] handleKey received: key='y' screen=0 sdk=true
+02:19:14.887762 [SimpleInput] BEFORE UPDATE: value='please stage and commmit ever', cursor=29, len=29
+02:19:14.887769 [SimpleInput] KeyMsg: string='y', text='y', code=121, mod=0, timeSinceLast=79.543439ms
+02:19:14.887780 [SimpleInput] Character typed: text='y'
+02:19:14.887784 [SimpleInput] AFTER KEY: value='please stage and commmit every', cursor=30, buffer=''
+02:19:14.896844 [GetContentHeight] width=74, maxWidth=68, valueLen=30, wrappedLines=1
+02:19:14.896927 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:14.994386 [KEY] handleKey received: key='t' screen=0 sdk=true
+02:19:14.994470 [SimpleInput] BEFORE UPDATE: value='please stage and commmit every', cursor=30, len=30
+02:19:14.994489 [SimpleInput] KeyMsg: string='t', text='t', code=116, mod=0, timeSinceLast=106.717735ms
+02:19:14.994515 [SimpleInput] Character typed: text='t'
+02:19:14.994526 [SimpleInput] AFTER KEY: value='please stage and commmit everyt', cursor=31, buffer=''
+02:19:15.004407 [GetContentHeight] width=74, maxWidth=68, valueLen=31, wrappedLines=1
+02:19:15.004466 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:15.071718 [KEY] handleKey received: key='h' screen=0 sdk=true
+02:19:15.071746 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everyt', cursor=31, len=31
+02:19:15.071751 [SimpleInput] KeyMsg: string='h', text='h', code=104, mod=0, timeSinceLast=77.264213ms
+02:19:15.071759 [SimpleInput] Character typed: text='h'
+02:19:15.071762 [SimpleInput] AFTER KEY: value='please stage and commmit everyth', cursor=32, buffer=''
+02:19:15.080427 [GetContentHeight] width=74, maxWidth=68, valueLen=32, wrappedLines=1
+02:19:15.080454 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:15.162234 [KEY] handleKey received: key='i' screen=0 sdk=true
+02:19:15.162315 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everyth', cursor=32, len=32
+02:19:15.162331 [SimpleInput] KeyMsg: string='i', text='i', code=105, mod=0, timeSinceLast=90.579065ms
+02:19:15.162352 [SimpleInput] Character typed: text='i'
+02:19:15.162360 [SimpleInput] AFTER KEY: value='please stage and commmit everythi', cursor=33, buffer=''
+02:19:15.172708 [GetContentHeight] width=74, maxWidth=68, valueLen=33, wrappedLines=1
+02:19:15.172820 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:15.230143 [KEY] handleKey received: key='n' screen=0 sdk=true
+02:19:15.230213 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everythi', cursor=33, len=33
+02:19:15.230229 [SimpleInput] KeyMsg: string='n', text='n', code=110, mod=0, timeSinceLast=67.89927ms
+02:19:15.230254 [SimpleInput] Character typed: text='n'
+02:19:15.230259 [SimpleInput] AFTER KEY: value='please stage and commmit everythin', cursor=34, buffer=''
+02:19:15.239676 [GetContentHeight] width=74, maxWidth=68, valueLen=34, wrappedLines=1
+02:19:15.239739 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:15.314262 [KEY] handleKey received: key='g' screen=0 sdk=true
+02:19:15.314301 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everythin', cursor=34, len=34
+02:19:15.314309 [SimpleInput] KeyMsg: string='g', text='g', code=103, mod=0, timeSinceLast=84.079231ms
+02:19:15.314320 [SimpleInput] Character typed: text='g'
+02:19:15.314324 [SimpleInput] AFTER KEY: value='please stage and commmit everything', cursor=35, buffer=''
+02:19:15.323328 [GetContentHeight] width=74, maxWidth=68, valueLen=35, wrappedLines=1
+02:19:15.323362 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:15.391642 [KEY] handleKey received: key='space' screen=0 sdk=true
+02:19:15.391692 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything', cursor=35, len=35
+02:19:15.391703 [SimpleInput] KeyMsg: string='space', text=' ', code=32, mod=0, timeSinceLast=77.394562ms
+02:19:15.391715 [SimpleInput] Space - new value: 'please stage and commmit everything '
+02:19:15.391719 [SimpleInput] AFTER KEY: value='please stage and commmit everything ', cursor=36, buffer=''
+02:19:15.401413 [GetContentHeight] width=74, maxWidth=68, valueLen=36, wrappedLines=1
+02:19:15.401450 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:15.512586 [KEY] handleKey received: key='i' screen=0 sdk=true
+02:19:15.512617 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything ', cursor=36, len=36
+02:19:15.512623 [SimpleInput] KeyMsg: string='i', text='i', code=105, mod=0, timeSinceLast=120.920066ms
+02:19:15.512633 [SimpleInput] Character typed: text='i'
+02:19:15.512636 [SimpleInput] AFTER KEY: value='please stage and commmit everything i', cursor=37, buffer=''
+02:19:15.525711 [GetContentHeight] width=74, maxWidth=68, valueLen=37, wrappedLines=1
+02:19:15.525739 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:15.558284 [KEY] handleKey received: key='n' screen=0 sdk=true
+02:19:15.558343 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything i', cursor=37, len=37
+02:19:15.558360 [SimpleInput] KeyMsg: string='n', text='n', code=110, mod=0, timeSinceLast=45.735516ms
+02:19:15.558378 [SimpleInput] Character typed: text='n'
+02:19:15.558383 [SimpleInput] AFTER KEY: value='please stage and commmit everything in', cursor=38, buffer=''
+02:19:15.568038 [GetContentHeight] width=74, maxWidth=68, valueLen=38, wrappedLines=1
+02:19:15.568090 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:15.701029 [KEY] handleKey received: key='space' screen=0 sdk=true
+02:19:15.701139 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in', cursor=38, len=38
+02:19:15.701168 [SimpleInput] KeyMsg: string='space', text=' ', code=32, mod=0, timeSinceLast=142.807652ms
+02:19:15.701189 [SimpleInput] Space - new value: 'please stage and commmit everything in '
+02:19:15.701197 [SimpleInput] AFTER KEY: value='please stage and commmit everything in ', cursor=39, buffer=''
+02:19:15.720064 [GetContentHeight] width=74, maxWidth=68, valueLen=39, wrappedLines=1
+02:19:15.720131 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:15.852615 [KEY] handleKey received: key='o' screen=0 sdk=true
+02:19:15.852640 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in ', cursor=39, len=39
+02:19:15.852646 [SimpleInput] KeyMsg: string='o', text='o', code=111, mod=0, timeSinceLast=151.479381ms
+02:19:15.852653 [SimpleInput] Character typed: text='o'
+02:19:15.852656 [SimpleInput] AFTER KEY: value='please stage and commmit everything in o', cursor=40, buffer=''
+02:19:15.869769 [GetContentHeight] width=74, maxWidth=68, valueLen=40, wrappedLines=1
+02:19:15.869795 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:15.911808 [KEY] handleKey received: key='u' screen=0 sdk=true
+02:19:15.911846 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in o', cursor=40, len=40
+02:19:15.911852 [SimpleInput] KeyMsg: string='u', text='u', code=117, mod=0, timeSinceLast=59.206494ms
+02:19:15.911861 [SimpleInput] Character typed: text='u'
+02:19:15.911864 [SimpleInput] AFTER KEY: value='please stage and commmit everything in ou', cursor=41, buffer=''
+02:19:15.921258 [GetContentHeight] width=74, maxWidth=68, valueLen=41, wrappedLines=1
+02:19:15.921306 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:15.982025 [KEY] handleKey received: key='r' screen=0 sdk=true
+02:19:15.982144 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in ou', cursor=41, len=41
+02:19:15.982167 [SimpleInput] KeyMsg: string='r', text='r', code=114, mod=0, timeSinceLast=70.313677ms
+02:19:15.982188 [SimpleInput] Character typed: text='r'
+02:19:15.982196 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our', cursor=42, buffer=''
+02:19:15.991947 [GetContentHeight] width=74, maxWidth=68, valueLen=42, wrappedLines=1
+02:19:15.992001 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:16.093308 [KEY] handleKey received: key='space' screen=0 sdk=true
+02:19:16.093387 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our', cursor=42, len=42
+02:19:16.093401 [SimpleInput] KeyMsg: string='space', text=' ', code=32, mod=0, timeSinceLast=111.234685ms
+02:19:16.093420 [SimpleInput] Space - new value: 'please stage and commmit everything in our '
+02:19:16.093428 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our ', cursor=43, buffer=''
+02:19:16.103521 [GetContentHeight] width=74, maxWidth=68, valueLen=43, wrappedLines=1
+02:19:16.103579 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:16.170255 [KEY] handleKey received: key='r' screen=0 sdk=true
+02:19:16.170290 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our ', cursor=43, len=43
+02:19:16.170296 [SimpleInput] KeyMsg: string='r', text='r', code=114, mod=0, timeSinceLast=76.895693ms
+02:19:16.170307 [SimpleInput] Character typed: text='r'
+02:19:16.170310 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our r', cursor=44, buffer=''
+02:19:16.179126 [GetContentHeight] width=74, maxWidth=68, valueLen=44, wrappedLines=1
+02:19:16.179208 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:16.233132 [KEY] handleKey received: key='e' screen=0 sdk=true
+02:19:16.233218 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our r', cursor=44, len=44
+02:19:16.233238 [SimpleInput] KeyMsg: string='e', text='e', code=101, mod=0, timeSinceLast=62.939318ms
+02:19:16.233264 [SimpleInput] Character typed: text='e'
+02:19:16.233274 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our re', cursor=45, buffer=''
+02:19:16.243065 [GetContentHeight] width=74, maxWidth=68, valueLen=45, wrappedLines=1
+02:19:16.243165 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:16.291410 [KEY] handleKey received: key='p' screen=0 sdk=true
+02:19:16.291458 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our re', cursor=45, len=45
+02:19:16.291468 [SimpleInput] KeyMsg: string='p', text='p', code=112, mod=0, timeSinceLast=58.232114ms
+02:19:16.291482 [SimpleInput] Character typed: text='p'
+02:19:16.291487 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our rep', cursor=46, buffer=''
+02:19:16.300779 [GetContentHeight] width=74, maxWidth=68, valueLen=46, wrappedLines=1
+02:19:16.300852 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:16.424523 [KEY] handleKey received: key='o' screen=0 sdk=true
+02:19:16.424612 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our rep', cursor=46, len=46
+02:19:16.424631 [SimpleInput] KeyMsg: string='o', text='o', code=111, mod=0, timeSinceLast=133.162436ms
+02:19:16.424662 [SimpleInput] Character typed: text='o'
+02:19:16.424673 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo', cursor=47, buffer=''
+02:19:16.440472 [GetContentHeight] width=74, maxWidth=68, valueLen=47, wrappedLines=1
+02:19:16.440523 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:16.577622 [KEY] handleKey received: key='space' screen=0 sdk=true
+02:19:16.577715 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo', cursor=47, len=47
+02:19:16.577736 [SimpleInput] KeyMsg: string='space', text=' ', code=32, mod=0, timeSinceLast=153.105107ms
+02:19:16.577819 [SimpleInput] Space - new value: 'please stage and commmit everything in our repo '
+02:19:16.577833 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo ', cursor=48, buffer=''
+02:19:16.613115 [GetContentHeight] width=74, maxWidth=68, valueLen=48, wrappedLines=1
+02:19:16.613167 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:17.095042 [KEY] handleKey received: key='d' screen=0 sdk=true
+02:19:17.095142 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo ', cursor=48, len=48
+02:19:17.095160 [SimpleInput] KeyMsg: string='d', text='d', code=100, mod=0, timeSinceLast=517.424409ms
+02:19:17.095175 [SimpleInput] Character typed: text='d'
+02:19:17.095181 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo d', cursor=49, buffer=''
+02:19:17.110136 [GetContentHeight] width=74, maxWidth=68, valueLen=49, wrappedLines=1
+02:19:17.110177 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:17.157964 [KEY] handleKey received: key='o' screen=0 sdk=true
+02:19:17.158003 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo d', cursor=49, len=49
+02:19:17.158013 [SimpleInput] KeyMsg: string='o', text='o', code=111, mod=0, timeSinceLast=62.852893ms
+02:19:17.158029 [SimpleInput] Character typed: text='o'
+02:19:17.158034 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo do', cursor=50, buffer=''
+02:19:17.168157 [GetContentHeight] width=74, maxWidth=68, valueLen=50, wrappedLines=1
+02:19:17.168187 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:17.231354 [KEY] handleKey received: key='n' screen=0 sdk=true
+02:19:17.231394 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo do', cursor=50, len=50
+02:19:17.231401 [SimpleInput] KeyMsg: string='n', text='n', code=110, mod=0, timeSinceLast=73.388822ms
+02:19:17.231412 [SimpleInput] Character typed: text='n'
+02:19:17.231416 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo don', cursor=51, buffer=''
+02:19:17.241578 [GetContentHeight] width=74, maxWidth=68, valueLen=51, wrappedLines=1
+02:19:17.241611 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:17.298771 [KEY] handleKey received: key='t' screen=0 sdk=true
+02:19:17.298818 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo don', cursor=51, len=51
+02:19:17.298830 [SimpleInput] KeyMsg: string='t', text='t', code=116, mod=0, timeSinceLast=67.427364ms
+02:19:17.298846 [SimpleInput] Character typed: text='t'
+02:19:17.298852 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont', cursor=52, buffer=''
+02:19:17.309418 [GetContentHeight] width=74, maxWidth=68, valueLen=52, wrappedLines=1
+02:19:17.309469 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:17.407690 [KEY] handleKey received: key='space' screen=0 sdk=true
+02:19:17.407731 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont', cursor=52, len=52
+02:19:17.407738 [SimpleInput] KeyMsg: string='space', text=' ', code=32, mod=0, timeSinceLast=108.909721ms
+02:19:17.407749 [SimpleInput] Space - new value: 'please stage and commmit everything in our repo dont '
+02:19:17.407752 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont ', cursor=53, buffer=''
+02:19:17.417903 [GetContentHeight] width=74, maxWidth=68, valueLen=53, wrappedLines=1
+02:19:17.417940 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:17.462452 [KEY] handleKey received: key='g' screen=0 sdk=true
+02:19:17.462493 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont ', cursor=53, len=53
+02:19:17.462501 [SimpleInput] KeyMsg: string='g', text='g', code=103, mod=0, timeSinceLast=54.762364ms
+02:19:17.462528 [SimpleInput] Character typed: text='g'
+02:19:17.462532 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont g', cursor=54, buffer=''
+02:19:17.472738 [GetContentHeight] width=74, maxWidth=68, valueLen=54, wrappedLines=1
+02:19:17.472779 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:17.547037 [KEY] handleKey received: key='i' screen=0 sdk=true
+02:19:17.547136 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont g', cursor=54, len=54
+02:19:17.547169 [SimpleInput] KeyMsg: string='i', text='i', code=105, mod=0, timeSinceLast=84.666115ms
+02:19:17.547191 [SimpleInput] Character typed: text='i'
+02:19:17.547198 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont gi', cursor=55, buffer=''
+02:19:17.558360 [GetContentHeight] width=74, maxWidth=68, valueLen=55, wrappedLines=1
+02:19:17.558441 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:17.635897 [KEY] handleKey received: key='t' screen=0 sdk=true
+02:19:17.636022 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont gi', cursor=55, len=55
+02:19:17.636038 [SimpleInput] KeyMsg: string='t', text='t', code=116, mod=0, timeSinceLast=88.868868ms
+02:19:17.636061 [SimpleInput] Character typed: text='t'
+02:19:17.636069 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git', cursor=56, buffer=''
+02:19:17.646963 [GetContentHeight] width=74, maxWidth=68, valueLen=56, wrappedLines=1
+02:19:17.647016 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:17.718134 [KEY] handleKey received: key='space' screen=0 sdk=true
+02:19:17.718170 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git', cursor=56, len=56
+02:19:17.718176 [SimpleInput] KeyMsg: string='space', text=' ', code=32, mod=0, timeSinceLast=82.140827ms
+02:19:17.718186 [SimpleInput] Space - new value: 'please stage and commmit everything in our repo dont git '
+02:19:17.718190 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ', cursor=57, buffer=''
+02:19:17.728241 [GetContentHeight] width=74, maxWidth=68, valueLen=57, wrappedLines=1
+02:19:17.728273 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:17.813193 [KEY] handleKey received: key='i' screen=0 sdk=true
+02:19:17.813235 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ', cursor=57, len=57
+02:19:17.813243 [SimpleInput] KeyMsg: string='i', text='i', code=105, mod=0, timeSinceLast=95.066254ms
+02:19:17.813256 [SimpleInput] Character typed: text='i'
+02:19:17.813260 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git i', cursor=58, buffer=''
+02:19:17.823603 [GetContentHeight] width=74, maxWidth=68, valueLen=58, wrappedLines=1
+02:19:17.823641 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:17.900341 [KEY] handleKey received: key='n' screen=0 sdk=true
+02:19:17.900415 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git i', cursor=58, len=58
+02:19:17.900432 [SimpleInput] KeyMsg: string='n', text='n', code=110, mod=0, timeSinceLast=87.188306ms
+02:19:17.900450 [SimpleInput] Character typed: text='n'
+02:19:17.900456 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git in', cursor=59, buffer=''
+02:19:17.911008 [GetContentHeight] width=74, maxWidth=68, valueLen=59, wrappedLines=1
+02:19:17.911069 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:17.944759 [KEY] handleKey received: key='g' screen=0 sdk=true
+02:19:17.944832 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git in', cursor=59, len=59
+02:19:17.944846 [SimpleInput] KeyMsg: string='g', text='g', code=103, mod=0, timeSinceLast=44.413716ms
+02:19:17.944893 [SimpleInput] Character typed: text='g'
+02:19:17.944904 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ing', cursor=60, buffer=''
+02:19:17.955651 [GetContentHeight] width=74, maxWidth=68, valueLen=60, wrappedLines=1
+02:19:17.955734 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:18.043054 [KEY] handleKey received: key='o' screen=0 sdk=true
+02:19:18.043123 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ing', cursor=60, len=60
+02:19:18.043146 [SimpleInput] KeyMsg: string='o', text='o', code=111, mod=0, timeSinceLast=98.299666ms
+02:19:18.043165 [SimpleInput] Character typed: text='o'
+02:19:18.043172 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ingo', cursor=61, buffer=''
+02:19:18.053766 [GetContentHeight] width=74, maxWidth=68, valueLen=61, wrappedLines=1
+02:19:18.053812 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:18.147841 [KEY] handleKey received: key='r' screen=0 sdk=true
+02:19:18.147913 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ingo', cursor=61, len=61
+02:19:18.147930 [SimpleInput] KeyMsg: string='r', text='r', code=114, mod=0, timeSinceLast=104.784213ms
+02:19:18.147954 [SimpleInput] Character typed: text='r'
+02:19:18.147965 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ingor', cursor=62, buffer=''
+02:19:18.158518 [GetContentHeight] width=74, maxWidth=68, valueLen=62, wrappedLines=1
+02:19:18.158575 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:18.200768 [KEY] handleKey received: key='e' screen=0 sdk=true
+02:19:18.200803 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ingor', cursor=62, len=62
+02:19:18.200812 [SimpleInput] KeyMsg: string='e', text='e', code=101, mod=0, timeSinceLast=52.883071ms
+02:19:18.200824 [SimpleInput] Character typed: text='e'
+02:19:18.200830 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ingore', cursor=63, buffer=''
+02:19:18.210776 [GetContentHeight] width=74, maxWidth=68, valueLen=63, wrappedLines=1
+02:19:18.210808 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:18.269804 [KEY] handleKey received: key='space' screen=0 sdk=true
+02:19:18.269867 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ingore', cursor=63, len=63
+02:19:18.269881 [SimpleInput] KeyMsg: string='space', text=' ', code=32, mod=0, timeSinceLast=69.068942ms
+02:19:18.269899 [SimpleInput] Space - new value: 'please stage and commmit everything in our repo dont git ingore '
+02:19:18.269907 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ingore ', cursor=64, buffer=''
+02:19:18.279882 [GetContentHeight] width=74, maxWidth=68, valueLen=64, wrappedLines=1
+02:19:18.279928 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:18.672444 [KEY] handleKey received: key='backspace' screen=0 sdk=true
+02:19:18.672521 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ingore ', cursor=64, len=64
+02:19:18.672545 [SimpleInput] KeyMsg: string='backspace', text='', code=127, mod=0, timeSinceLast=402.66339ms
+02:19:18.672568 [SimpleInput] Backspace - new value: 'please stage and commmit everything in our repo dont git ingore'
+02:19:18.672580 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ingore', cursor=63, buffer=''
+02:19:18.701298 [GetContentHeight] width=74, maxWidth=68, valueLen=63, wrappedLines=1
+02:19:18.701372 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:18.798500 [KEY] handleKey received: key='backspace' screen=0 sdk=true
+02:19:18.798553 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ingore', cursor=63, len=63
+02:19:18.798590 [SimpleInput] KeyMsg: string='backspace', text='', code=127, mod=0, timeSinceLast=126.045332ms
+02:19:18.798605 [SimpleInput] Backspace - new value: 'please stage and commmit everything in our repo dont git ingor'
+02:19:18.798610 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ingor', cursor=62, buffer=''
+02:19:18.808228 [GetContentHeight] width=74, maxWidth=68, valueLen=62, wrappedLines=1
+02:19:18.808291 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:18.913093 [KEY] handleKey received: key='backspace' screen=0 sdk=true
+02:19:18.913176 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ingor', cursor=62, len=62
+02:19:18.913190 [SimpleInput] KeyMsg: string='backspace', text='', code=127, mod=0, timeSinceLast=114.598716ms
+02:19:18.913211 [SimpleInput] Backspace - new value: 'please stage and commmit everything in our repo dont git ingo'
+02:19:18.913217 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ingo', cursor=61, buffer=''
+02:19:18.922747 [GetContentHeight] width=74, maxWidth=68, valueLen=61, wrappedLines=1
+02:19:18.922801 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:19.056241 [KEY] handleKey received: key='backspace' screen=0 sdk=true
+02:19:19.056285 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ingo', cursor=61, len=61
+02:19:19.056297 [SimpleInput] KeyMsg: string='backspace', text='', code=127, mod=0, timeSinceLast=143.108502ms
+02:19:19.056314 [SimpleInput] Backspace - new value: 'please stage and commmit everything in our repo dont git ing'
+02:19:19.056319 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ing', cursor=60, buffer=''
+02:19:19.065694 [GetContentHeight] width=74, maxWidth=68, valueLen=60, wrappedLines=1
+02:19:19.065739 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:19.189053 [KEY] handleKey received: key='backspace' screen=0 sdk=true
+02:19:19.189087 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ing', cursor=60, len=60
+02:19:19.189093 [SimpleInput] KeyMsg: string='backspace', text='', code=127, mod=0, timeSinceLast=132.796345ms
+02:19:19.189116 [SimpleInput] Backspace - new value: 'please stage and commmit everything in our repo dont git in'
+02:19:19.189120 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git in', cursor=59, buffer=''
+02:19:19.211845 [GetContentHeight] width=74, maxWidth=68, valueLen=59, wrappedLines=1
+02:19:19.211898 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:19.295874 [KEY] handleKey received: key='backspace' screen=0 sdk=true
+02:19:19.295970 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git in', cursor=59, len=59
+02:19:19.295989 [SimpleInput] KeyMsg: string='backspace', text='', code=127, mod=0, timeSinceLast=106.895804ms
+02:19:19.296010 [SimpleInput] Backspace - new value: 'please stage and commmit everything in our repo dont git i'
+02:19:19.296018 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git i', cursor=58, buffer=''
+02:19:19.306876 [GetContentHeight] width=74, maxWidth=68, valueLen=58, wrappedLines=1
+02:19:19.306935 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:19.386324 [KEY] handleKey received: key='g' screen=0 sdk=true
+02:19:19.386355 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git i', cursor=58, len=58
+02:19:19.386361 [SimpleInput] KeyMsg: string='g', text='g', code=103, mod=0, timeSinceLast=90.372211ms
+02:19:19.386371 [SimpleInput] Character typed: text='g'
+02:19:19.386374 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ig', cursor=59, buffer=''
+02:19:19.395203 [GetContentHeight] width=74, maxWidth=68, valueLen=59, wrappedLines=1
+02:19:19.395252 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:19.516918 [KEY] handleKey received: key='n' screen=0 sdk=true
+02:19:19.516984 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ig', cursor=59, len=59
+02:19:19.516998 [SimpleInput] KeyMsg: string='n', text='n', code=110, mod=0, timeSinceLast=130.635161ms
+02:19:19.517018 [SimpleInput] Character typed: text='n'
+02:19:19.517025 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ign', cursor=60, buffer=''
+02:19:19.542537 [GetContentHeight] width=74, maxWidth=68, valueLen=60, wrappedLines=1
+02:19:19.542586 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:19.611717 [KEY] handleKey received: key='o' screen=0 sdk=true
+02:19:19.611751 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ign', cursor=60, len=60
+02:19:19.611758 [SimpleInput] KeyMsg: string='o', text='o', code=111, mod=0, timeSinceLast=94.761632ms
+02:19:19.611769 [SimpleInput] Character typed: text='o'
+02:19:19.611773 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git igno', cursor=61, buffer=''
+02:19:19.620877 [GetContentHeight] width=74, maxWidth=68, valueLen=61, wrappedLines=1
+02:19:19.620924 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:19.696280 [KEY] handleKey received: key='r' screen=0 sdk=true
+02:19:19.696363 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git igno', cursor=61, len=61
+02:19:19.696380 [SimpleInput] KeyMsg: string='r', text='r', code=114, mod=0, timeSinceLast=84.621039ms
+02:19:19.696401 [SimpleInput] Character typed: text='r'
+02:19:19.696409 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ignor', cursor=62, buffer=''
+02:19:19.706569 [GetContentHeight] width=74, maxWidth=68, valueLen=62, wrappedLines=1
+02:19:19.706690 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:19.746558 [KEY] handleKey received: key='e' screen=0 sdk=true
+02:19:19.746625 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ignor', cursor=62, len=62
+02:19:19.746637 [SimpleInput] KeyMsg: string='e', text='e', code=101, mod=0, timeSinceLast=50.257707ms
+02:19:19.746652 [SimpleInput] Character typed: text='e'
+02:19:19.746656 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ignore', cursor=63, buffer=''
+02:19:19.755709 [GetContentHeight] width=74, maxWidth=68, valueLen=63, wrappedLines=1
+02:19:19.755742 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:19.811439 [KEY] handleKey received: key='space' screen=0 sdk=true
+02:19:19.811493 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ignore', cursor=63, len=63
+02:19:19.811501 [SimpleInput] KeyMsg: string='space', text=' ', code=32, mod=0, timeSinceLast=64.865004ms
+02:19:19.811514 [SimpleInput] Space - new value: 'please stage and commmit everything in our repo dont git ignore '
+02:19:19.811518 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ignore ', cursor=64, buffer=''
+02:19:19.820831 [GetContentHeight] width=74, maxWidth=68, valueLen=64, wrappedLines=1
+02:19:19.820869 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:19.906913 [KEY] handleKey received: key='1' screen=0 sdk=true
+02:19:19.906993 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ignore ', cursor=64, len=64
+02:19:19.907013 [SimpleInput] KeyMsg: string='1', text='1', code=49, mod=0, timeSinceLast=95.509351ms
+02:19:19.907040 [SimpleInput] Character typed: text='1'
+02:19:19.907051 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ignore 1', cursor=65, buffer=''
+02:19:19.916995 [GetContentHeight] width=74, maxWidth=68, valueLen=65, wrappedLines=1
+02:19:19.917092 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:20.012633 [KEY] handleKey received: key='space' screen=0 sdk=true
+02:19:20.012708 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ignore 1', cursor=65, len=65
+02:19:20.012722 [SimpleInput] KeyMsg: string='space', text=' ', code=32, mod=0, timeSinceLast=105.711057ms
+02:19:20.012741 [SimpleInput] Space - new value: 'please stage and commmit everything in our repo dont git ignore 1 '
+02:19:20.012749 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ignore 1 ', cursor=66, buffer=''
+02:19:20.022406 [GetContentHeight] width=74, maxWidth=68, valueLen=66, wrappedLines=1
+02:19:20.022463 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:20.114526 [KEY] handleKey received: key='t' screen=0 sdk=true
+02:19:20.114608 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ignore 1 ', cursor=66, len=66
+02:19:20.114623 [SimpleInput] KeyMsg: string='t', text='t', code=116, mod=0, timeSinceLast=101.899925ms
+02:19:20.114640 [SimpleInput] Character typed: text='t'
+02:19:20.114646 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ignore 1 t', cursor=67, buffer=''
+02:19:20.124172 [GetContentHeight] width=74, maxWidth=68, valueLen=67, wrappedLines=1
+02:19:20.124210 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=1, cursor=0, showing=3
+02:19:20.185962 [KEY] handleKey received: key='h' screen=0 sdk=true
+02:19:20.186030 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ignore 1 t', cursor=67, len=67
+02:19:20.186046 [SimpleInput] KeyMsg: string='h', text='h', code=104, mod=0, timeSinceLast=71.423436ms
+02:19:20.186068 [SimpleInput] Character typed: text='h'
+02:19:20.186077 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ignore 1 th', cursor=68, buffer=''
+02:19:20.195852 [GetContentHeight] width=74, maxWidth=68, valueLen=68, wrappedLines=2
+02:19:20.195915 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=2, cursor=1, showing=3
+02:19:20.220402 [KEY] handleKey received: key='i' screen=0 sdk=true
+02:19:20.220468 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ignore 1 th', cursor=68, len=68
+02:19:20.220477 [SimpleInput] KeyMsg: string='i', text='i', code=105, mod=0, timeSinceLast=34.430919ms
+02:19:20.220487 [SimpleInput] Character typed: text='i'
+02:19:20.220491 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ignore 1 thi', cursor=69, buffer=''
+02:19:20.229472 [GetContentHeight] width=74, maxWidth=68, valueLen=69, wrappedLines=2
+02:19:20.229535 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=2, cursor=1, showing=3
+02:19:20.323508 [KEY] handleKey received: key='n' screen=0 sdk=true
+02:19:20.323552 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ignore 1 thi', cursor=69, len=69
+02:19:20.323562 [SimpleInput] KeyMsg: string='n', text='n', code=110, mod=0, timeSinceLast=103.084439ms
+02:19:20.323574 [SimpleInput] Character typed: text='n'
+02:19:20.323579 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ignore 1 thin', cursor=70, buffer=''
+02:19:20.332468 [GetContentHeight] width=74, maxWidth=68, valueLen=70, wrappedLines=2
+02:19:20.332505 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=2, cursor=1, showing=3
+02:19:20.395120 [KEY] handleKey received: key='g' screen=0 sdk=true
+02:19:20.395171 [SimpleInput] BEFORE UPDATE: value='please stage and commmit everything in our repo dont git ignore 1 thin', cursor=70, len=70
+02:19:20.395183 [SimpleInput] KeyMsg: string='g', text='g', code=103, mod=0, timeSinceLast=71.621043ms
+02:19:20.395198 [SimpleInput] Character typed: text='g'
+02:19:20.395227 [SimpleInput] AFTER KEY: value='please stage and commmit everything in our repo dont git ignore 1 thing', cursor=71, buffer=''
+02:19:20.404234 [GetContentHeight] width=74, maxWidth=68, valueLen=71, wrappedLines=2
+02:19:20.404275 [SimpleInput.View] width=74, maxWidth=68, height=3, lines=2, cursor=1, showing=3
+02:19:20.617325 [KEY] handleKey received: key='enter' screen=0 sdk=true
+02:19:20.617360 [resetChatUIState] Resetting all UI state for new conversation
+02:19:20.617388 [CACHE] SetContent: hash match, skipping line reprocessing (caches invalidated)
+02:19:20.617393 [resetChatUIState] UI state reset complete
+02:19:20.617404 [CACHE] SetContent: hash match, skipping line reprocessing (caches invalidated)
+02:19:20.617408 [resetChatUIState] UI state reset complete
+02:19:20.628981 [ContextWindow] model=claude-sonnet-4-6 matched=claude-sonnet-4-6 provider=ClaudeCode context_window=1000000 (match_type=exact, int format)
+02:19:20.629068 Cleared input for new chat
+02:19:20.645183 [monitorConversationForNaming] Started monitoring goroutine
+02:19:20.674791 [CACHE] Invalidating render caches (messagelist)
+02:19:20.675091 [CACHE] SetContent: hash mismatch, full reprocessing
+02:19:20.675116 [MODE] Appended mode message for off (changed from off)
+02:19:20.675125 ✓ Cleared all image attachments
+02:19:20.675264 [CACHE] SetContent: hash mismatch, full reprocessing
+02:19:20.675280 Executing message with Agent using model: zai-glm-4.7
+02:19:20.700473 [CACHE] Invalidating render caches (messagelist)
+02:19:20.700504 [METRICS] Started TPS tracking with initialTokens=0
+02:19:20.701872 [CACHE] SetContent: hash mismatch, full reprocessing
+02:19:20.701897 [sendMessage] Registering agent with bgManager for convID=20260320-021920-grfu2g, model=zai-glm-4.7
+02:19:20.701939 [BGManager] Registered agent for conversation 20260320-021920-grfu2g
+02:19:20.701944 [sendMessage] Registered agent, sourceChan=true
+02:19:20.701966 [BGManager] Subscriber ui subscribed to conversation 20260320-021920-grfu2g (buffered: 0)
+02:19:20.701974 [sendMessage] Subscribed to updates, uiChan=true, buffered=0
+02:19:20.702061 [sendMessage] Starting agent execution for convID=20260320-021920-grfu2g
+02:19:20.702082 [SendMessage] Token calculation for auto-compact check:
+02:19:20.702089 [SendMessage]   - lastRealTokenCount: 0
+02:19:20.702104 [SendMessage]   - messageTokens (new message): 20
+02:19:20.702113 [SendMessage]   - expectedResponseTokens: 1000
+02:19:20.702119 [SendMessage]   - predictedTotal: 1020
+02:19:20.702125 [SendMessage]   - a.tokenCount: 0 (isEstimate: false)
+02:19:20.702132 [SendMessage]   - a.modelContextWindow: 1000000
+02:19:20.702138 [SendMessage] No auto-compaction needed (shouldCompact=false)
+02:19:20.702144 [SendMessage] =================================================
+02:19:20.702151 [SendMessage] Proceeding to execute message on convID=20260320-021920-grfu2g...
+02:19:20.705216 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:20.705259 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:20.707371 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:20.707413 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:20.709871 [Debug] Captured request: req_1773987560_0 (msg 0, 0ms)
+02:19:20.710675 [SDK] HooksManager set on agent - hooks will fire during tool execution
+02:19:20.710688 [SDK] Registered hooks count: 0
+02:19:20.711128 [SDK] Injected skills context: 995 chars
+02:19:20.756904 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:20.756937 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:20.803881 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:20.803912 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:20.856212 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:20.856331 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:20.913999 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:20.914094 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:20.956130 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:20.956223 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:21.004719 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:21.004766 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:21.056337 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:21.056382 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:21.104809 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:21.104913 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:21.145636 [monitorConversationForNaming] Tick 1: Found currentConvID=20260320-021920-grfu2g, checking for messages
+02:19:21.145735 [monitorConversationForNaming] Found first message in conv 20260320-021920-grfu2g (msg count: 1), spawning naming agent
+02:19:21.145762 [spawnNamingAgent] Spawning naming agent for conv 20260320-021920-grfu2g (trigger: first_message)
+02:19:21.145774 [spawnNamingAgent] Task tool not found: tool Task not found (error_id=err_d04e370bc00e9e7cfaee)
+02:19:21.157061 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:21.157156 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:21.205787 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:21.205854 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:21.257161 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:21.257210 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:21.281839 [KEY] handleKey received: key='ctrl+d' screen=2 sdk=true
+02:19:21.281880 Debug screen toggled: visible=true
+02:19:21.886240 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:21.886315 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:21.910537 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:21.910613 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:21.963265 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:21.963302 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.011388 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.011425 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.064010 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.064055 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.111563 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.111692 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.164321 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.164411 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.211683 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.211755 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.264431 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.264471 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.325583 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.325679 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.366773 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.366825 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.413276 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.413326 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.466259 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.466299 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.512991 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.513083 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.567296 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.567369 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.613259 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.613331 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.668372 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.668425 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.713696 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.713755 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.769341 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.769408 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.814875 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.814950 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.870303 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.870360 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.914833 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.914882 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:22.970557 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:22.970611 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.015570 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.015632 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.071640 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.071708 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.116313 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.116395 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.172385 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.172429 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.217419 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.217507 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.272767 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.272878 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.318491 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.318558 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.372866 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.372908 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.419414 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.419463 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.473303 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.473365 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.520424 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.520516 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.573959 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.573998 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.620693 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.620750 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.674679 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.674742 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.721568 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.721637 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.774764 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.774824 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.822294 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.822369 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.874856 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.874929 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.923199 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.923247 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:23.975756 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:23.975787 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.005535 [KEY] handleKey received: key='tab' screen=2 sdk=true
+02:19:24.005566 [handleChatKey] Key pressed: tab
+02:19:24.005575 [CACHE] Invalidating render caches (messagelist)
+02:19:24.009310 [CACHE] SetContent: hash mismatch, full reprocessing
+02:19:24.009537 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.009559 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.010973 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.011050 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.024456 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.024513 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.076801 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.076830 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.123934 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.123967 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.177480 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.177516 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.224555 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.224635 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.263978 [KEY] handleKey received: key='tab' screen=2 sdk=true
+02:19:24.264055 [handleChatKey] Key pressed: tab
+02:19:24.264068 [CACHE] Invalidating render caches (messagelist)
+02:19:24.267808 [CACHE] SetContent: hash mismatch, full reprocessing
+02:19:24.268062 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:24.268091 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.269973 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:24.270018 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.278277 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:24.278323 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.325275 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:24.325325 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.379551 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:24.379644 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.425390 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:24.425426 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.480385 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:24.480469 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.525915 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:24.525944 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.581122 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:24.581150 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.624369 [KEY] handleKey received: key='tab' screen=2 sdk=true
+02:19:24.624400 [handleChatKey] Key pressed: tab
+02:19:24.624405 [CACHE] Invalidating render caches (messagelist)
+02:19:24.626244 [CACHE] SetContent: hash mismatch, full reprocessing
+02:19:24.626377 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.626389 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.627085 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.627110 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.627408 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.627422 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.681832 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.681866 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.727526 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.727551 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.782522 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.782553 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.828597 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.828694 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.883444 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.883488 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.929386 [SimpleInput.View] width=84, maxWidth=78, height=1, lines=1, cursor=0, showing=1
+02:19:24.929426 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.970290 [KEY] handleKey received: key='tab' screen=2 sdk=true
+02:19:24.970325 [handleChatKey] Key pressed: tab
+02:19:24.970331 [CACHE] Invalidating render caches (messagelist)
+02:19:24.972278 [CACHE] SetContent: hash mismatch, full reprocessing
+02:19:24.972402 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:24.972416 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.973347 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:24.973377 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:24.983913 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:24.983953 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.029594 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.029663 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.085147 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.085182 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.130087 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.130142 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.185980 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.186005 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.187316 listenForAgentUpdates: TokenCountUpdate - input=20611 output=0 turn=1 window=200000 pct=10.3% [seq=1]
+02:19:25.187346 sendToRuntime: Queued message type chat.tokenUpdateMsg
+02:19:25.230568 [Queue] Processing tokenUpdateMsg: input=20611 output=0 window=200000 pct=10.3%
+02:19:25.230925 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.230963 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.286916 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.287249 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.331577 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.331631 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.387712 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.387751 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.433488 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.433578 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.488197 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.488262 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.532657 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.532721 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.588594 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.588650 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.632983 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.633031 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.689723 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.689796 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.733962 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.734055 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.789828 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.789877 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.834592 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.834669 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.890231 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.890272 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.935305 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.935332 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:25.991271 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:25.991315 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.035645 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.035684 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.092366 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.092416 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.135859 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.135904 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.193068 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.193134 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.236834 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.236924 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.293867 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.293956 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.337415 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.337443 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.393786 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.393822 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.438077 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.438203 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.494004 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.494054 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.538406 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.538496 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.594373 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.594417 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.638913 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.638978 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.695177 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.695246 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.739069 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.739102 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.795573 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.795602 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.839428 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.839487 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.896232 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.896299 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.939793 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.939892 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:26.996024 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:26.996052 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.040592 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.040645 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.096851 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.096922 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.127616 listenForAgentUpdates: TokenCountUpdate - input=20611 output=187 turn=1 window=200000 pct=10.3% [seq=2]
+02:19:27.127650 sendToRuntime: Queued message type chat.tokenUpdateMsg
+02:19:27.130507 listenForAgentUpdates: TokenCountUpdate - input=20611 output=187 turn=1 window=200000 pct=10.3% [seq=3]
+02:19:27.130571 sendToRuntime: Queued message type chat.tokenUpdateMsg
+02:19:27.132023 listenForAgentUpdates: TokenCountUpdate - input=20611 output=187 turn=1 window=200000 pct=10.3% [seq=4]
+02:19:27.132087 sendToRuntime: Queued message type chat.tokenUpdateMsg
+02:19:27.133894 listenForAgentUpdates: ToolCallUpdate - Bash (ID: toolu_01TMeF7kg7m1RKh6CL46KPfH) [seq=5]
+02:19:27.133982 sendToRuntime: Queued message type chat.agentToolCallMsg
+02:19:27.141176 [Queue] Processing tokenUpdateMsg: input=20611 output=187 window=200000 pct=10.3%
+02:19:27.141216 [Queue] Processing tokenUpdateMsg: input=20611 output=187 window=200000 pct=10.3%
+02:19:27.141225 [Queue] Processing tokenUpdateMsg: input=20611 output=187 window=200000 pct=10.3%
+02:19:27.141233 [Queue] Processing tool call: Bash [seq=5]
+02:19:27.141907 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.141946 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.186861 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=19 [seq=6]
+02:19:27.186910 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.186927 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=28 [seq=7]
+02:19:27.186936 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.186945 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=65 [seq=8]
+02:19:27.186953 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.186962 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=67 [seq=9]
+02:19:27.186970 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187006 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=65 [seq=10]
+02:19:27.187015 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187024 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=67 [seq=11]
+02:19:27.187032 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187040 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=65 [seq=12]
+02:19:27.187054 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187063 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=67 [seq=13]
+02:19:27.187071 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187080 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=14 [seq=14]
+02:19:27.187088 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187122 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=28 [seq=15]
+02:19:27.187147 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187164 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=18 [seq=16]
+02:19:27.187180 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187189 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=21 [seq=17]
+02:19:27.187197 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187206 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=43 [seq=18]
+02:19:27.187214 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187222 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=36 [seq=19]
+02:19:27.187230 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187239 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=34 [seq=20]
+02:19:27.187246 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187255 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=36 [seq=21]
+02:19:27.187263 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187271 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=34 [seq=22]
+02:19:27.187279 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187287 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=25 [seq=23]
+02:19:27.187295 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187304 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=18 [seq=24]
+02:19:27.187312 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187320 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=75 [seq=25]
+02:19:27.187328 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187336 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=76 [seq=26]
+02:19:27.187364 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187373 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=65 [seq=27]
+02:19:27.187381 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187390 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=61 [seq=28]
+02:19:27.187397 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187406 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=68 [seq=29]
+02:19:27.187413 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187422 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=65 [seq=30]
+02:19:27.187440 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187449 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=65 [seq=31]
+02:19:27.187457 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187465 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=56 [seq=32]
+02:19:27.187473 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187481 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=62 [seq=33]
+02:19:27.187489 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187497 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=62 [seq=34]
+02:19:27.187505 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187514 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=41 [seq=35]
+02:19:27.187522 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187530 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=43 [seq=36]
+02:19:27.187541 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187550 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=42 [seq=37]
+02:19:27.187558 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187566 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=41 [seq=38]
+02:19:27.187574 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187582 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=47 [seq=39]
+02:19:27.187590 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187598 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=36 [seq=40]
+02:19:27.187606 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187614 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=35 [seq=41]
+02:19:27.187622 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187630 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=43 [seq=42]
+02:19:27.187638 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187647 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=53 [seq=43]
+02:19:27.187654 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187663 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=42 [seq=44]
+02:19:27.187671 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187679 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=45 [seq=45]
+02:19:27.187687 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187695 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=44 [seq=46]
+02:19:27.187703 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187711 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=43 [seq=47]
+02:19:27.187719 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187727 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=43 [seq=48]
+02:19:27.187735 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187743 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=42 [seq=49]
+02:19:27.187751 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187759 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=45 [seq=50]
+02:19:27.187767 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187783 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=55 [seq=51]
+02:19:27.187792 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187800 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=72 [seq=52]
+02:19:27.187808 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187816 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=72 [seq=53]
+02:19:27.187824 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187832 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=74 [seq=54]
+02:19:27.187840 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187848 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01TMeF7kg7m1RKh6CL46KPfH stream=stdout len=76 [seq=55]
+02:19:27.187856 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.187865 listenForAgentUpdates: ToolResultUpdate - ID: toolu_01TMeF7kg7m1RKh6CL46KPfH [seq=56]
+02:19:27.187874 sendToRuntime: Queued message type chat.agentToolResultMsg
+02:19:27.187884 listenForAgentUpdates: ToolCallUpdate - Bash (ID: toolu_01R5VcReGQmrWuAED4MiaqEx) [seq=57]
+02:19:27.187914 sendToRuntime: Queued message type chat.agentToolCallMsg
+02:19:27.196831 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=19 [seq=6]
+02:19:27.196923 [CACHE] Invalidating message 3
+02:19:27.198414 [CACHE] SetContent: hash mismatch, full reprocessing
+02:19:27.198473 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=28 [seq=7]
+02:19:27.198488 [CACHE] Invalidating message 3
+02:19:27.198497 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=65 [seq=8]
+02:19:27.198506 [CACHE] Invalidating message 3
+02:19:27.198513 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=67 [seq=9]
+02:19:27.198521 [CACHE] Invalidating message 3
+02:19:27.198529 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=65 [seq=10]
+02:19:27.198537 [CACHE] Invalidating message 3
+02:19:27.198544 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=67 [seq=11]
+02:19:27.198551 [CACHE] Invalidating message 3
+02:19:27.198558 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=65 [seq=12]
+02:19:27.198565 [CACHE] Invalidating message 3
+02:19:27.198572 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=67 [seq=13]
+02:19:27.198579 [CACHE] Invalidating message 3
+02:19:27.198586 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=14 [seq=14]
+02:19:27.198595 [CACHE] Invalidating message 3
+02:19:27.198602 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=28 [seq=15]
+02:19:27.198609 [CACHE] Invalidating message 3
+02:19:27.198616 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=18 [seq=16]
+02:19:27.198623 [CACHE] Invalidating message 3
+02:19:27.198630 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=21 [seq=17]
+02:19:27.198637 [CACHE] Invalidating message 3
+02:19:27.198644 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=43 [seq=18]
+02:19:27.198651 [CACHE] Invalidating message 3
+02:19:27.198658 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=36 [seq=19]
+02:19:27.198664 [CACHE] Invalidating message 3
+02:19:27.198671 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=34 [seq=20]
+02:19:27.198678 [CACHE] Invalidating message 3
+02:19:27.198685 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=36 [seq=21]
+02:19:27.198692 [CACHE] Invalidating message 3
+02:19:27.198698 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=34 [seq=22]
+02:19:27.198705 [CACHE] Invalidating message 3
+02:19:27.198741 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=25 [seq=23]
+02:19:27.198749 [CACHE] Invalidating message 3
+02:19:27.198756 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=18 [seq=24]
+02:19:27.198765 [CACHE] Invalidating message 3
+02:19:27.198777 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=75 [seq=25]
+02:19:27.198792 [CACHE] Invalidating message 3
+02:19:27.198804 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=76 [seq=26]
+02:19:27.198813 [CACHE] Invalidating message 3
+02:19:27.198825 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=65 [seq=27]
+02:19:27.198834 [CACHE] Invalidating message 3
+02:19:27.198844 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=61 [seq=28]
+02:19:27.198854 [CACHE] Invalidating message 3
+02:19:27.198863 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=68 [seq=29]
+02:19:27.198872 [CACHE] Invalidating message 3
+02:19:27.198882 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=65 [seq=30]
+02:19:27.198896 [CACHE] Invalidating message 3
+02:19:27.198906 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=65 [seq=31]
+02:19:27.198915 [CACHE] Invalidating message 3
+02:19:27.198925 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=56 [seq=32]
+02:19:27.198935 [CACHE] Invalidating message 3
+02:19:27.198944 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=62 [seq=33]
+02:19:27.198954 [CACHE] Invalidating message 3
+02:19:27.198963 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=62 [seq=34]
+02:19:27.198972 [CACHE] Invalidating message 3
+02:19:27.198982 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=41 [seq=35]
+02:19:27.198991 [CACHE] Invalidating message 3
+02:19:27.199001 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=43 [seq=36]
+02:19:27.199011 [CACHE] Invalidating message 3
+02:19:27.199020 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=42 [seq=37]
+02:19:27.199030 [CACHE] Invalidating message 3
+02:19:27.199040 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=41 [seq=38]
+02:19:27.199049 [CACHE] Invalidating message 3
+02:19:27.199059 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=47 [seq=39]
+02:19:27.199069 [CACHE] Invalidating message 3
+02:19:27.199078 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=36 [seq=40]
+02:19:27.199086 [CACHE] Invalidating message 3
+02:19:27.199095 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=35 [seq=41]
+02:19:27.199128 [CACHE] Invalidating message 3
+02:19:27.199139 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=43 [seq=42]
+02:19:27.199160 [CACHE] Invalidating message 3
+02:19:27.199171 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=53 [seq=43]
+02:19:27.199181 [CACHE] Invalidating message 3
+02:19:27.199191 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=42 [seq=44]
+02:19:27.199205 [CACHE] Invalidating message 3
+02:19:27.199215 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=45 [seq=45]
+02:19:27.199225 [CACHE] Invalidating message 3
+02:19:27.199235 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=44 [seq=46]
+02:19:27.199244 [CACHE] Invalidating message 3
+02:19:27.199253 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=43 [seq=47]
+02:19:27.199262 [CACHE] Invalidating message 3
+02:19:27.199271 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=43 [seq=48]
+02:19:27.199281 [CACHE] Invalidating message 3
+02:19:27.199289 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=42 [seq=49]
+02:19:27.199317 [CACHE] Invalidating message 3
+02:19:27.199326 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=45 [seq=50]
+02:19:27.199335 [CACHE] Invalidating message 3
+02:19:27.199344 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=55 [seq=51]
+02:19:27.199352 [CACHE] Invalidating message 3
+02:19:27.199362 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=72 [seq=52]
+02:19:27.199371 [CACHE] Invalidating message 3
+02:19:27.199380 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=72 [seq=53]
+02:19:27.199389 [CACHE] Invalidating message 3
+02:19:27.199398 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=74 [seq=54]
+02:19:27.199406 [CACHE] Invalidating message 3
+02:19:27.199415 [Queue] Processing tool output chunk: callID=toolu_01TMeF7kg7m1RKh6CL46KPfH len=76 [seq=55]
+02:19:27.199423 [CACHE] Invalidating message 3
+02:19:27.205998 [CACHE] SetContent: hash mismatch, full reprocessing
+02:19:27.206451 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.206494 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.218465 [Queue] Processing tool result: toolu_01TMeF7kg7m1RKh6CL46KPfH [seq=56]
+02:19:27.218519 [Queue] Updated existing streaming result for toolu_01TMeF7kg7m1RKh6CL46KPfH
+02:19:27.218580 [Queue] Processing tool call: Bash [seq=57]
+02:19:27.218835 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.218857 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.219754 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.219798 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.242715 listenForAgentUpdates: ToolOutputChunk - ID=toolu_01R5VcReGQmrWuAED4MiaqEx stream=stdout len=25 [seq=58]
+02:19:27.242752 sendToRuntime: Queued message type chat.agentToolOutputChunkMsg
+02:19:27.242763 listenForAgentUpdates: ToolResultUpdate - ID: toolu_01R5VcReGQmrWuAED4MiaqEx [seq=59]
+02:19:27.242773 sendToRuntime: Queued message type chat.agentToolResultMsg
+02:19:27.242860 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.242882 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.271466 [Queue] Processing tool output chunk: callID=toolu_01R5VcReGQmrWuAED4MiaqEx len=25 [seq=58]
+02:19:27.271499 [CACHE] Invalidating message 3
+02:19:27.272149 [CACHE] SetContent: hash mismatch, full reprocessing
+02:19:27.272168 [Queue] Processing tool result: toolu_01R5VcReGQmrWuAED4MiaqEx [seq=59]
+02:19:27.272179 [Queue] Updated existing streaming result for toolu_01R5VcReGQmrWuAED4MiaqEx
+02:19:27.272305 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.272317 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.300405 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.300453 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.342728 [AnimationTick] Flushing pending update (elapsed: 71.222811ms)
+02:19:27.342904 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.342926 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.401269 [AnimationTick] Flushing pending update (elapsed: 58.539457ms)
+02:19:27.401600 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.401639 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.443194 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.443284 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.501522 [AnimationTick] Flushing pending update (elapsed: 100.254347ms)
+02:19:27.502289 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.502325 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.543496 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.543570 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.601699 [AnimationTick] Flushing pending update (elapsed: 100.175924ms)
+02:19:27.601946 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.601979 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.644466 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.644542 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.702999 [AnimationTick] Flushing pending update (elapsed: 101.299461ms)
+02:19:27.703373 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.703433 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.745233 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.745324 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.803474 [AnimationTick] Flushing pending update (elapsed: 100.473972ms)
+02:19:27.803757 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.803819 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.846030 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.846171 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.904268 [AnimationTick] Flushing pending update (elapsed: 100.797109ms)
+02:19:27.904433 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.904451 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:27.946816 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:27.946858 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.004727 [AnimationTick] Flushing pending update (elapsed: 100.457972ms)
+02:19:28.004986 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.005035 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.047562 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.047632 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.105389 [AnimationTick] Flushing pending update (elapsed: 100.661559ms)
+02:19:28.105713 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.105749 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.148374 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.148421 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.206511 [AnimationTick] Flushing pending update (elapsed: 101.122625ms)
+02:19:28.206651 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.206675 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.219463 [BGPROCESS] bgProcessTickMsg tick - side panel cache remains valid (not invalidated)
+02:19:28.248847 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.248942 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.307499 [AnimationTick] Flushing pending update (elapsed: 100.987157ms)
+02:19:28.307709 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.307738 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.348785 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.348830 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.408698 [AnimationTick] Flushing pending update (elapsed: 101.200078ms)
+02:19:28.408852 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.408872 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.449512 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.449585 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.509728 [AnimationTick] Flushing pending update (elapsed: 101.02923ms)
+02:19:28.510002 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.510035 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.550615 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.550704 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.610289 [AnimationTick] Flushing pending update (elapsed: 100.562073ms)
+02:19:28.610413 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.610428 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.651515 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.651603 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.710495 [AnimationTick] Flushing pending update (elapsed: 100.166231ms)
+02:19:28.710852 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.710915 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.751862 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.751912 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.811529 [AnimationTick] Flushing pending update (elapsed: 101.073424ms)
+02:19:28.811782 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.811833 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.852646 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.852679 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.911689 [AnimationTick] Flushing pending update (elapsed: 100.15882ms)
+02:19:28.911925 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.911967 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:28.954719 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:28.954836 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.012934 [AnimationTick] Flushing pending update (elapsed: 101.245407ms)
+02:19:29.020442 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.020508 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.053685 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.053764 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.113964 [AnimationTick] Flushing pending update (elapsed: 101.026697ms)
+02:19:29.116323 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.116373 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.154487 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.154538 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.214059 [AnimationTick] Flushing pending update (elapsed: 100.098747ms)
+02:19:29.214332 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.214378 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.220523 [BGPROCESS] bgProcessTickMsg tick - side panel cache remains valid (not invalidated)
+02:19:29.255498 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.255534 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.315270 [AnimationTick] Flushing pending update (elapsed: 101.210617ms)
+02:19:29.315492 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.315520 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.356693 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.356782 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.415761 [AnimationTick] Flushing pending update (elapsed: 100.492592ms)
+02:19:29.415929 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.415948 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.456839 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.456952 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.516219 [AnimationTick] Flushing pending update (elapsed: 100.456011ms)
+02:19:29.516462 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.516495 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.557410 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.557483 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.616860 [AnimationTick] Flushing pending update (elapsed: 100.641301ms)
+02:19:29.617063 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.617094 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.657770 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.657845 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.717749 [AnimationTick] Flushing pending update (elapsed: 100.889657ms)
+02:19:29.717915 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.717936 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.758576 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.758603 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.817887 [AnimationTick] Flushing pending update (elapsed: 100.138378ms)
+02:19:29.817974 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.817984 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.859194 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.859236 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.918824 [AnimationTick] Flushing pending update (elapsed: 100.936655ms)
+02:19:29.919068 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.919139 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:29.960216 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:29.960288 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.019874 [AnimationTick] Flushing pending update (elapsed: 101.050133ms)
+02:19:30.020047 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.020068 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.060277 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.060338 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.121027 [AnimationTick] Flushing pending update (elapsed: 101.15196ms)
+02:19:30.121388 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.121436 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.160965 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.161071 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.221205 [BGPROCESS] bgProcessTickMsg tick - side panel cache remains valid (not invalidated)
+02:19:30.221262 [AnimationTick] Flushing pending update (elapsed: 100.236715ms)
+02:19:30.221380 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.221396 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.261842 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.261887 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.321870 [AnimationTick] Flushing pending update (elapsed: 100.60807ms)
+02:19:30.322011 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.322028 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.362207 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.362251 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.422289 [AnimationTick] Flushing pending update (elapsed: 100.418721ms)
+02:19:30.422489 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.422514 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.462480 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.462533 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.523430 [AnimationTick] Flushing pending update (elapsed: 101.140461ms)
+02:19:30.523665 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.523692 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.563450 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.563514 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.624420 [AnimationTick] Flushing pending update (elapsed: 100.988954ms)
+02:19:30.624720 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.624775 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.664163 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.664211 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.724950 [AnimationTick] Flushing pending update (elapsed: 100.531535ms)
+02:19:30.725121 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.725142 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.764495 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.764569 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.826073 [AnimationTick] Flushing pending update (elapsed: 101.12317ms)
+02:19:30.826231 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.826253 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.865332 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.865381 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.926291 [AnimationTick] Flushing pending update (elapsed: 100.218162ms)
+02:19:30.926453 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.926480 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:30.965541 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:30.965624 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.026753 [AnimationTick] Flushing pending update (elapsed: 100.460215ms)
+02:19:31.027032 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.027078 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.066382 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.066448 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.127270 [AnimationTick] Flushing pending update (elapsed: 100.517578ms)
+02:19:31.127485 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.127512 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.167262 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.167353 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.221590 [BGPROCESS] bgProcessTickMsg tick - side panel cache remains valid (not invalidated)
+02:19:31.227968 [AnimationTick] Flushing pending update (elapsed: 100.697331ms)
+02:19:31.228273 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.228318 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.267675 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.267712 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.313142 listenForAgentUpdates: TokenCountUpdate - input=21885 output=0 turn=2 window=200000 pct=10.9% [seq=60]
+02:19:31.313165 sendToRuntime: Queued message type chat.tokenUpdateMsg
+02:19:31.313510 listenForAgentUpdates: ContentUpdate - 4 chars (append=true) [seq=61]
+02:19:31.313524 sendToRuntime: Queued message type chat.agentContentUpdateMsg
+02:19:31.328423 [Queue] Processing tokenUpdateMsg: input=21885 output=0 window=200000 pct=10.9%
+02:19:31.328478 [Queue] Processing content update: 4 chars (append=true) [seq=61]
+02:19:31.328489 [AGENT-TOKEN] Initialized streamingInputTokens=21885 from tokenCount
+02:19:31.328494 [AGENT-TOKEN] Cache invalidated: input=21885 + est_output=1 = 21886 (delta=+1)
+02:19:31.328509 [Queue] Created new content block after non-content block (seq=61)
+02:19:31.329447 [CACHE] SetContent: hash mismatch, full reprocessing
+02:19:31.329663 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.329679 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.331766 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.331791 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.369750 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.369832 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.430666 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.430725 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.469908 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.469990 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.532796 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.532829 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.570697 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.570764 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.633410 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.633442 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.671572 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.671611 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.734213 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.734257 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.763936 listenForAgentUpdates: ContentUpdate - 3 chars (append=true) [seq=62]
+02:19:31.763994 sendToRuntime: Queued message type chat.agentContentUpdateMsg
+02:19:31.764156 listenForAgentUpdates: ContentUpdate - 17 chars (append=true) [seq=63]
+02:19:31.764193 sendToRuntime: Queued message type chat.agentContentUpdateMsg
+02:19:31.764475 listenForAgentUpdates: ContentUpdate - 3 chars (append=true) [seq=64]
+02:19:31.764496 sendToRuntime: Queued message type chat.agentContentUpdateMsg
+02:19:31.764719 listenForAgentUpdates: ContentUpdate - 4 chars (append=true) [seq=65]
+02:19:31.764751 sendToRuntime: Queued message type chat.agentContentUpdateMsg
+02:19:31.765078 listenForAgentUpdates: ContentUpdate - 4 chars (append=true) [seq=66]
+02:19:31.765120 sendToRuntime: Queued message type chat.agentContentUpdateMsg
+02:19:31.765734 listenForAgentUpdates: ContentUpdate - 8 chars (append=true) [seq=67]
+02:19:31.765758 sendToRuntime: Queued message type chat.agentContentUpdateMsg
+02:19:31.767439 listenForAgentUpdates: ContentUpdate - 29 chars (append=true) [seq=68]
+02:19:31.767489 sendToRuntime: Queued message type chat.agentContentUpdateMsg
+02:19:31.767718 listenForAgentUpdates: ContentUpdate - 4 chars (append=true) [seq=69]
+02:19:31.767738 sendToRuntime: Queued message type chat.agentContentUpdateMsg
+02:19:31.771824 [Queue] Processing content update: 3 chars (append=true) [seq=62]
+02:19:31.771886 [Queue] Appended to last content block at index 4
+02:19:31.774300 [CACHE] SetContent: hash mismatch, full reprocessing
+02:19:31.774383 [Queue] Processing content update: 17 chars (append=true) [seq=63]
+02:19:31.774404 [AGENT-TOKEN] Cache invalidated: input=21885 + est_output=6 = 21891 (delta=+5)
+02:19:31.774422 [Queue] Appended to last content block at index 4
+02:19:31.774474 [Queue] Processing content update: 3 chars (append=true) [seq=64]
+02:19:31.774486 [Queue] Appended to last content block at index 4
+02:19:31.774494 [Queue] Processing content update: 4 chars (append=true) [seq=65]
+02:19:31.774500 [AGENT-TOKEN] Cache invalidated: input=21885 + est_output=7 = 21892 (delta=+1)
+02:19:31.774508 [Queue] Appended to last content block at index 4
+02:19:31.774516 [Queue] Processing content update: 4 chars (append=true) [seq=66]
+02:19:31.774522 [AGENT-TOKEN] Cache invalidated: input=21885 + est_output=8 = 21893 (delta=+1)
+02:19:31.774529 [Queue] Appended to last content block at index 4
+02:19:31.774536 [Queue] Processing content update: 8 chars (append=true) [seq=67]
+02:19:31.774542 [AGENT-TOKEN] Cache invalidated: input=21885 + est_output=10 = 21895 (delta=+2)
+02:19:31.774549 [Queue] Appended to last content block at index 4
+02:19:31.774557 [Queue] Processing content update: 29 chars (append=true) [seq=68]
+02:19:31.774564 [AGENT-TOKEN] Cache invalidated: input=21885 + est_output=18 = 21903 (delta=+8)
+02:19:31.774571 [Queue] Appended to last content block at index 4
+02:19:31.774578 [Queue] Processing content update: 4 chars (append=true) [seq=69]
+02:19:31.774584 [AGENT-TOKEN] Cache invalidated: input=21885 + est_output=19 = 21904 (delta=+1)
+02:19:31.774591 [Queue] Appended to last content block at index 4
+02:19:31.775030 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.775067 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.779644 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.779706 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.834851 [AnimationTick] Flushing pending update (elapsed: 62.945855ms)
+02:19:31.835227 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.835288 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.875407 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.875480 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.935917 [AnimationTick] Flushing pending update (elapsed: 101.066455ms)
+02:19:31.936246 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.936294 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:31.976316 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:31.976393 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.036926 [AnimationTick] Flushing pending update (elapsed: 101.008765ms)
+02:19:32.037233 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.037274 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.076495 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.076566 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.137124 [AnimationTick] Flushing pending update (elapsed: 100.198729ms)
+02:19:32.137391 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.137424 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.176900 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.176974 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.222688 [BGPROCESS] bgProcessTickMsg tick - side panel cache remains valid (not invalidated)
+02:19:32.237762 [AnimationTick] Flushing pending update (elapsed: 100.63832ms)
+02:19:32.238150 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.238238 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.277763 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.277857 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.338739 [AnimationTick] Flushing pending update (elapsed: 100.977496ms)
+02:19:32.338933 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.338982 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.377781 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.377828 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.439726 [AnimationTick] Flushing pending update (elapsed: 100.985372ms)
+02:19:32.440037 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.440086 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.478890 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.478977 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.539866 [AnimationTick] Flushing pending update (elapsed: 100.140906ms)
+02:19:32.540184 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.540231 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.579591 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.579709 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.641083 [AnimationTick] Flushing pending update (elapsed: 101.216832ms)
+02:19:32.641334 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.641366 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.679518 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.679581 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.741288 [AnimationTick] Flushing pending update (elapsed: 100.204791ms)
+02:19:32.741555 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.741589 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.780449 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.780524 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.842175 [AnimationTick] Flushing pending update (elapsed: 100.886943ms)
+02:19:32.842521 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.842561 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.880806 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.880881 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.942900 [AnimationTick] Flushing pending update (elapsed: 100.725454ms)
+02:19:32.943045 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.943064 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:32.981665 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:32.981742 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:33.043313 [AnimationTick] Flushing pending update (elapsed: 100.413115ms)
+02:19:33.043554 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:33.043582 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:33.082007 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:33.082048 [viewMainChat] inputTextLines count: 1, inputText len: 36
+02:19:33.140849 listenForAgentUpdates: TokenCountUpdate - input=21885 output=120 turn=2 window=200000 pct=10.9% [seq=70]
+02:19:33.140881 sendToRuntime: Queued message type chat.tokenUpdateMsg
+02:19:33.141129 listenForAgentUpdates: TokenCountUpdate - input=21885 output=120 turn=2 window=200000 pct=10.9% [seq=71]
+02:19:33.141149 sendToRuntime: Queued message type chat.tokenUpdateMsg
+02:19:33.142385 listenForAgentUpdates: TokenCountUpdate - input=21885 output=120 turn=2 window=200000 pct=10.9% [seq=72]
+02:19:33.142424 sendToRuntime: Queued message type chat.tokenUpdateMsg
+02:19:33.143586 [Queue] Processing tokenUpdateMsg: input=21885 output=120 window=200000 pct=10.9%
+02:19:33.143607 [Queue] Processing tokenUpdateMsg: input=21885 output=120 window=200000 pct=10.9%
+02:19:33.143614 [Queue] Processing tokenUpdateMsg: input=21885 output=120 window=200000 pct=10.9%
+02:19:33.143645 [AnimationTick] Flushing pending update (elapsed: 100.333332ms)
+02:19:33.143671 listenForAgentUpdates: ToolCallUpdate - Bash (ID: toolu_01EDD4QK6AhEYZbf4yFyysC1) [seq=73]
+02:19:33.143714 sendToRuntime: Queued message type chat.agentToolCallMsg
+02:19:33.143808 [SimpleInput.View] width=46, maxWidth=40, height=1, lines=1, cursor=0, showing=1
+02:19:33.143835 [viewMainChat] inputTextLines count: 1, inputText len: 36

@@ -1,0 +1,40 @@
+[
+  {
+    "method": "GET",
+    "url": "https://api.godelterminal.com/api/users/me",
+    "status": 403,
+    "body": null,
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:17:25.930330"
+  },
+  {
+    "method": "GET",
+    "url": "https://api.godelterminal.com/api/v1/watchlists",
+    "status": 403,
+    "body": null,
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:17:26.302760"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/news/items",
+    "status": 403,
+    "body": {
+      "size": 3,
+      "page": 0,
+      "ticker": "NVDA"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:17:26.646193"
+  },
+  {
+    "method": "POST",
+    "url": "https://api.godelterminal.com/api/v1/optionsv2",
+    "status": 403,
+    "body": {
+      "ticker": "NVDA"
+    },
+    "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helve",
+    "timestamp": "2026-03-20T01:17:26.997112"
+  }
+]

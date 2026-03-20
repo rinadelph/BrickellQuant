@@ -1,0 +1,32 @@
+# BrickellQuant Tools — Dependencies
+# Install: pip install -r tools/requirements.txt
+
+# SEC EDGAR
+edgartools>=2.0
+
+# Market Data
+yfinance>=0.2.38
+
+# News / RSS
+feedparser>=6.0
+requests>=2.28
+
+# Data Processing
+pandas>=2.0
+pyarrow>=14.0
+python-dateutil>=2.8
+
+# Formatting / Output
+rich>=13.0
+
+# Caching
+diskcache>=5.6
+
+# Type support
+typing-extensions>=4.0
+
+# Yodel — Playwright browser automation
+playwright>=1.44
+# After install, run once: playwright install chromium
+# Optional: nest_asyncio (for Jupyter notebook support)
+nest_asyncio>=1.6

@@ -1,0 +1,65 @@
+{
+  "extracted_at": "2026-03-20T00:59:43.023960",
+  "js_files": [
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/4a5eecee_1255-f779ec79b0cbf5b1.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/a10eec4f_2619-04bc32f026a0d946.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/173ea17e_2663-16dcb2cdfa2d2afe.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/7eeb33f3_4524-6f0818833b6d06bd.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/d2a054a8_4bd1b696-100b9d70ed4e49c1.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/3c8e3cf7_9da6db1e-877ebad7f4983062.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/0bec2d01_aaea2bcf-143d3b0dc8132bc4.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/65d9c184_layout-0f06e4cd46f2897d.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/8a243f94_main-app-5491aff1f3f675f8.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/dd7afde0_polyfills-42372ed130431b0a.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/09005975_webpack-adca71ab2a7085f2.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/a024cb24_fbevents.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/c86134f2_661495503062289.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/a46ddfb2_VL5DCUV3CVEAPKTPJROSP4.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/9c8f1224_16923046375.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/75fc2e02_roundtrip.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/943d2bd2_uwt.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/de44fecf_v8c78df7c7c0f484497ecbca7046644da1771523124516.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/9fa6b0f3_config.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/40e78476_surveys.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/2c12105a_js.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/6d82c894_js.js",
+    "/home/rincon/BrickellQuant/tools/Yodel/2-setup/js_bundles/67815baa_gtm.js"
+  ],
+  "base_urls": [
+    "https://connect.facebook.net/"
+  ],
+  "websockets": [],
+  "api_routes": {
+    "/api/early_access_features/?token=": [
+      "3c8e3cf7_9da6db1e-877ebad7f4983062.js",
+      "https://app.godelterminal.com/_next/static/chunks/9da6db1e-877ebad7f4983062.js"
+    ],
+    "/api/product_tours/?token=": [
+      "3c8e3cf7_9da6db1e-877ebad7f4983062.js",
+      "https://app.godelterminal.com/_next/static/chunks/9da6db1e-877ebad7f4983062.js"
+    ],
+    "/api/surveys/?token=": [
+      "3c8e3cf7_9da6db1e-877ebad7f4983062.js",
+      "https://app.godelterminal.com/_next/static/chunks/9da6db1e-877ebad7f4983062.js"
+    ],
+    "/api/web_experiments/?token=": [
+      "3c8e3cf7_9da6db1e-877ebad7f4983062.js",
+      "https://app.godelterminal.com/_next/static/chunks/9da6db1e-877ebad7f4983062.js"
+    ]
+  },
+  "method_url_pairs": [],
+  "by_category": {
+    "early_access_features": [
+      "/api/early_access_features/?token="
+    ],
+    "product_tours": [
+      "/api/product_tours/?token="
+    ],
+    "surveys": [
+      "/api/surveys/?token="
+    ],
+    "web_experiments": [
+      "/api/web_experiments/?token="
+    ]
+  }
+}

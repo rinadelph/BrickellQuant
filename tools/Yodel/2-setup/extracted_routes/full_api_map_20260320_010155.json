@@ -1,0 +1,46 @@
+{
+  "extracted_at": "2026-03-20T01:01:55.563384",
+  "total_routes": 4,
+  "by_category": {
+    "early_access_features": [
+      "/api/early_access_features/?token="
+    ],
+    "product_tours": [
+      "/api/product_tours/?token="
+    ],
+    "surveys": [
+      "/api/surveys/?token="
+    ],
+    "web_experiments": [
+      "/api/web_experiments/?token="
+    ]
+  },
+  "all_routes": {
+    "/api/early_access_features/?token=": [
+      "3c8e3cf7_9da6db1e-877ebad7f4983062.js"
+    ],
+    "/api/product_tours/?token=": [
+      "3c8e3cf7_9da6db1e-877ebad7f4983062.js"
+    ],
+    "/api/surveys/?token=": [
+      "3c8e3cf7_9da6db1e-877ebad7f4983062.js"
+    ],
+    "/api/web_experiments/?token=": [
+      "3c8e3cf7_9da6db1e-877ebad7f4983062.js"
+    ]
+  },
+  "raw_all": {
+    "/api/early_access_features/?token=": [
+      "3c8e3cf7_9da6db1e-877ebad7f4983062.js"
+    ],
+    "/api/product_tours/?token=": [
+      "3c8e3cf7_9da6db1e-877ebad7f4983062.js"
+    ],
+    "/api/surveys/?token=": [
+      "3c8e3cf7_9da6db1e-877ebad7f4983062.js"
+    ],
+    "/api/web_experiments/?token=": [
+      "3c8e3cf7_9da6db1e-877ebad7f4983062.js"
+    ]
+  }
+}
